@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/michelleshu/preston-portfolio#readme",
   "dependencies": {
+    "@radix-ui/react-navigation-menu": "^1.2.13",
     "@radix-ui/themes": "^3.2.1",
     "radix-ui": "^1.4.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-starfield": "^1.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.27.7",
