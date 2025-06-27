@@ -1,0 +1,38 @@
+{
+  "name": "preston-portfolio",
+  "version": "1.0.0",
+  "description": "Preston's art portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelleshu/preston-portfolio.git"
+  },
+  "author": "Michelle Shu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michelleshu/preston-portfolio/issues"
+  },
+  "homepage": "https://github.com/michelleshu/preston-portfolio#readme",
+  "dependencies": {
+    "@radix-ui/themes": "^3.2.1",
+    "radix-ui": "^1.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.7",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
