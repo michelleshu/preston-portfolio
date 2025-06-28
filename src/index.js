@@ -5,12 +5,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 
-import App from "./components/App";
+import Home from "./routes/Home";
+import Error from "./routes/Error";
 
 const router = createBrowserRouter([
   {
-    path: "",
-    element: <App />,
+    path: "/",
+    element: <Home />,
+    errorElement: <Error />,
   },
 ]);
 
