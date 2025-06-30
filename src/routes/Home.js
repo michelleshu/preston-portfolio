@@ -1,43 +1,28 @@
 import React from "react";
-import { Container, Flex } from "@radix-ui/themes";
-import { NavigationMenu } from "radix-ui";
+import { Container, Flex, Section, Text } from "@radix-ui/themes";
+
 import Starfield from "react-starfield";
+import Navigation from "../components/Navigation";
 
 export default () => (
   <div>
     <Starfield starCount={3000} speedFactor={0.03} />
     <Container>
-      <Flex>
-        <h2>Preston Harris</h2>
-        <NavigationMenu.Root>
-          <NavigationMenu.List>
-            <NavigationMenu.Item>
-              <NavigationMenu.Trigger />
-              <NavigationMenu.Content>
-                <NavigationMenu.Link />
-              </NavigationMenu.Content>
-            </NavigationMenu.Item>
-
-            <NavigationMenu.Item>
-              <NavigationMenu.Link />
-            </NavigationMenu.Item>
-
-            <NavigationMenu.Item>
-              <NavigationMenu.Trigger />
-              <NavigationMenu.Content>
-                <NavigationMenu.Sub>
-                  <NavigationMenu.List />
-                  <NavigationMenu.Viewport />
-                </NavigationMenu.Sub>
-              </NavigationMenu.Content>
-            </NavigationMenu.Item>
-
-            <NavigationMenu.Indicator />
-          </NavigationMenu.List>
-
-          <NavigationMenu.Viewport />
-        </NavigationMenu.Root>
+      <Flex align="center" justify="between" style={{ marginTop: "30px" }}>
+        <Text size="4" weight="bold">
+          Preston Harris
+        </Text>
+        <Navigation />
       </Flex>
+      <Section mt="20vh">
+        <Text as="div" size="9" align="center" weight="light">
+          I'm{" "}
+          <Text as="span" weight="bold">
+            Preston Harris
+          </Text>
+          . Welcome to my online portfolio, where myths and dreams intersect.
+        </Text>
+      </Section>
     </Container>
   </div>
 );

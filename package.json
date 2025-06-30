@@ -1,7 +1,7 @@
 {
   "name": "preston-portfolio",
   "version": "1.0.0",
-  "homepage": "https://michelleshu.github.io/preston-portfolio",
+  "homepage": "https://github.com/michelleshu/preston-portfolio#readme",
   "description": "Preston's art portfolio",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
   "bugs": {
     "url": "https://github.com/michelleshu/preston-portfolio/issues"
   },
-  "homepage": "https://github.com/michelleshu/preston-portfolio#readme",
   "dependencies": {
+    "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-navigation-menu": "^1.2.13",
     "@radix-ui/themes": "^3.2.1",
     "radix-ui": "^1.4.2",
