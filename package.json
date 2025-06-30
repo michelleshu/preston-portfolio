@@ -1,7 +1,7 @@
 {
   "name": "preston-portfolio",
   "version": "1.0.0",
-  "homepage": "https://github.com/michelleshu/preston-portfolio#readme",
+  "homepage": "https://michelleshu.github.io/preston-portfolio/",
   "description": "Preston's art portfolio",
   "main": "index.js",
   "scripts": {
