@@ -9,29 +9,24 @@ const Navigation = () => {
     <NavigationMenu.Root className="NavigationMenuRoot">
       <NavigationMenu.List className="NavigationMenuList">
         <NavigationMenu.Item>
-          <NavigationMenu.Link className="NavigationMenuLink" href="">
-            Artist Bio
-          </NavigationMenu.Link>
-        </NavigationMenu.Item>
-        <NavigationMenu.Item>
-          <NavigationMenu.Link className="NavigationMenuLink" href="">
-            Artist Statement
-          </NavigationMenu.Link>
-        </NavigationMenu.Item>
-        <NavigationMenu.Item>
           <NavigationMenu.Trigger className="NavigationMenuTrigger">
-            Mythology <CaretDownIcon className="CaretDown" aria-hidden />
+            Personal Mythos <CaretDownIcon className="CaretDown" aria-hidden />
           </NavigationMenu.Trigger>
           <NavigationMenu.Content className="NavigationMenuContent">
             <ul className="List">
               <NavigationMenu.Link asChild>
                 <a className="ListItemLink" href="">
-                  Creation Story
+                  Origin
                 </a>
               </NavigationMenu.Link>
               <NavigationMenu.Link asChild>
                 <a className="ListItemLink" href="">
-                  Dreams
+                  Path of the Infinite Dream
+                </a>
+              </NavigationMenu.Link>
+              <NavigationMenu.Link asChild>
+                <a className="ListItemLink" href="">
+                  The Infinity Planes
                 </a>
               </NavigationMenu.Link>
               <NavigationMenu.Link asChild>
@@ -49,30 +44,25 @@ const Navigation = () => {
         </NavigationMenu.Item>
 
         <NavigationMenu.Item>
-          <NavigationMenu.Trigger className="NavigationMenuTrigger">
-            Artwork <CaretDownIcon className="CaretDown" aria-hidden />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="NavigationMenuContent">
-            <ul className="List">
-              <NavigationMenu.Link asChild>
-                <a className="ListItemLink" href="">
-                  Automatic Drawings
-                </a>
-              </NavigationMenu.Link>
-              <NavigationMenu.Link asChild>
-                <a className="ListItemLink" href="">
-                  Infinity Cards
-                </a>
-              </NavigationMenu.Link>
-              <NavigationMenu.Link asChild>
-                <a className="ListItemLink" href="">
-                  Sketchbook
-                </a>
-              </NavigationMenu.Link>
-            </ul>
-          </NavigationMenu.Content>
+          <NavigationMenu.Link className="NavigationMenuLink" href="">
+            Dream Writings
+          </NavigationMenu.Link>
         </NavigationMenu.Item>
-
+        <NavigationMenu.Item>
+          <NavigationMenu.Link className="NavigationMenuLink" href="">
+            Artwork
+          </NavigationMenu.Link>
+        </NavigationMenu.Item>
+        <NavigationMenu.Item>
+          <NavigationMenu.Link className="NavigationMenuLink" href="">
+            Artist Statement
+          </NavigationMenu.Link>
+        </NavigationMenu.Item>
+        <NavigationMenu.Item>
+          <NavigationMenu.Link className="NavigationMenuLink" href="">
+            Artist Bio
+          </NavigationMenu.Link>
+        </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link className="NavigationMenuLink" href="">
             Contact

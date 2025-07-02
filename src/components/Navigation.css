@@ -124,7 +124,7 @@ p {
   padding: 16px;
   margin: 0;
   list-style: none;
-  width: 200px;
+  width: 220px;
 }
 
 .ListItemLink {
@@ -150,7 +150,7 @@ p {
   justify-content: center;
   width: 100%;
   top: 100%;
-  left: 80px;
+  left: -236px;
   perspective: 2000px;
 }
 
