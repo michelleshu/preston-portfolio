@@ -3,10 +3,15 @@
   max-width: 1100px;
 }
 
-.CenteredSection {
+.FullPageSection {
+  height: calc(100vh - 94px);
+}
+
+.CenteredSectionContent {
   position: relative;
-  top: 50%;
-  transform: translateY(-164px);
+  top: calc(50% - 47px);
+  transform: translateY(-50%);
+  margin: auto;
 }
 
 .Blink {
