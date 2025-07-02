@@ -1,0 +1,51 @@
+button,
+p {
+  all: unset;
+}
+
+.NavigationMenuIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+.MobileNavMenuContent {
+  background-color: #111113;
+  animation-duration: 400ms;
+  animation-name: menuSlideDownAndFade;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI (Custom)", Roboto,
+    "Helvetica Neue", "Open Sans (Custom)", system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  will-change: transform, opacity;
+  padding: 5% 10%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 20;
+  height: calc(100vh - 74px);
+  width: 100vw;
+}
+
+.MobileNavMenuCollapsibleTrigger {
+  font-size: 14px;
+}
+
+.MobileNavMenuCollapsibleContent {
+}
+
+.MobileNavMenuSubItem {
+}
+
+@keyframes menuSlideDownAndFade {
+  from {
+    opacity: 0;
+    transform: translateY(-74px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
