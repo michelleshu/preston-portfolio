@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
+      favicon: path.resolve(__dirname, "src/images/favicon.ico"),
       template: path.resolve(__dirname, "src/index.html"),
     }),
   ],

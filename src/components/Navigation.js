@@ -1,7 +1,11 @@
 import React from "react";
 import { NavigationMenu } from "radix-ui";
 import classNames from "classnames";
-import { CaretDownIcon } from "@radix-ui/react-icons";
+import {
+  CaretDownIcon,
+  InstagramLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -45,7 +49,7 @@ const Navigation = () => {
 
         <NavigationMenu.Item>
           <NavigationMenu.Link className="NavigationMenuLink" href="">
-            Dream Writings
+            Dream Stories
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
