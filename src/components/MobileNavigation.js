@@ -28,15 +28,15 @@ export default ({ className }) => {
   const mythosChevron = isMythosExpanded ? (
     <ChevronUpIcon
       className="MobileNavMenuExpandIcon"
-      width={24}
-      height={24}
+      width={20}
+      height={20}
       aria-hidden
     />
   ) : (
     <ChevronDownIcon
       className="MobileNavMenuExpandIcon"
-      width={24}
-      height={24}
+      width={20}
+      height={20}
       aria-hidden
     />
   );
@@ -56,8 +56,10 @@ export default ({ className }) => {
         <DropdownMenu.Portal>
           <DropdownMenu.Content
             className="MobileNavMenuContent"
+            align="end"
+            alignOffset={-16}
             side="bottom"
-            sideOffset={18}
+            sideOffset={16}
           >
             <Collapsible.Root
               open={isMythosExpanded}

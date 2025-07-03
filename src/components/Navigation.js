@@ -22,7 +22,7 @@ export default () => {
           className="SocialIconContainer"
           align="center"
           gap="2"
-          style={{ height: 40, marginLeft: 4 }}
+          style={{ height: 44 }}
         >
           <SocialIcon
             className="SocialIcon"

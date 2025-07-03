@@ -25,12 +25,25 @@ p {
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 20;
-  height: calc(100vh - 74px);
-  width: 100vw;
+  width: 300px;
+  max-height: var(--radix-dropdown-menu-content-available-height);
 }
 
 .MobileNavMenuCollapsibleTrigger {
-  font-size: 14px;
+  width: 240px;
+  padding: 8px 12px;
+  outline: none;
+  user-select: none;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 4px;
+  font-size: 16px;
+  color: color(display-p3 0.692 0.704 0.728);
+  cursor: pointer;
+}
+.MobileNavMenuCollapsibleTrigger:hover {
+  background-color: color(display-p3 0.163 0.163 0.163);
+  color: white;
 }
 
 .MobileNavMenuCollapsibleContent {
@@ -42,7 +55,7 @@ p {
 @keyframes menuSlideDownAndFade {
   from {
     opacity: 0;
-    transform: translateY(-74px);
+    transform: translateY(-30px);
   }
   to {
     opacity: 1;
