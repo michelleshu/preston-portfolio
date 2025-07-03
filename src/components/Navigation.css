@@ -6,6 +6,10 @@ p {
   all: unset;
 }
 
+.NavigationContainer {
+  align-items: flex-end;
+}
+
 .MobileNavigation {
   display: none;
 }
@@ -301,6 +305,10 @@ p {
 }
 
 @media screen and (max-width: 959px) {
+  .NavigationContainer {
+    align-items: center;
+  }
+
   .NavigationMenuRoot {
     display: none;
   }

@@ -9,7 +9,11 @@ import "./Navigation.css";
 
 export default () => {
   return (
-    <Flex align="end" justify="between" style={{ marginTop: "30px" }}>
+    <Flex
+      className="NavigationContainer"
+      justify="between"
+      style={{ marginTop: "30px" }}
+    >
       <Flex direction="column">
         <Text className="NameText" weight="bold">
           落ちる天 ALTENSIEN SKYBREAKER
