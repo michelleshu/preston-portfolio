@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import * as Collapsible from "@radix-ui/react-collapsible";
-import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
-import { Box } from "@radix-ui/themes";
+import { Box, Flex } from "@radix-ui/themes";
 import {
   Cross1Icon,
   ChevronDownIcon,
@@ -21,8 +20,11 @@ export default ({ className }) => {
     <HamburgerMenuIcon width={20} height={20} aria-hidden />
   );
 
-  const handleOpenChange = (open) => {
-    setIsOpen(open);
+  const toggleIsOpen = () => {
+    setIsOpen(!isOpen);
+    if (isMythosExpanded) {
+      setIsMythosExpanded(false);
+    }
   };
 
   const mythosChevron = isMythosExpanded ? (
@@ -42,8 +44,71 @@ export default ({ className }) => {
   );
 
   return (
-    <Box className={className}>
-      <DropdownMenu.Root modal={false} onOpenChange={handleOpenChange}>
+    <Box className={`${className} MobileNavigationContainer`}>
+      <button
+        className="NavigationMenuIcon"
+        aria-label="Toggle navigation menu"
+        onClick={toggleIsOpen}
+      >
+        {navMenuIcon}
+      </button>
+
+      <Box className="MobileNavMenuContent" display={isOpen ? "block" : "none"}>
+        <Collapsible.Root
+          open={isMythosExpanded}
+          onOpenChange={setIsMythosExpanded}
+        >
+          <Collapsible.Trigger className="MobileNavMenuCollapsibleTrigger">
+            <Flex
+              align="center"
+              justify="between"
+              className="MobileNavMenuItem"
+            >
+              Personal Mythos
+              {mythosChevron}
+            </Flex>
+          </Collapsible.Trigger>
+          <Collapsible.Content className="MobileNavMenuCollapsibleContent">
+            <a className="MobileNavMenuItemLink" href="">
+              Origin
+            </a>
+            <a className="MobileNavMenuItemLink" href="">
+              Path of the Infinite Dream
+            </a>
+            <a className="MobileNavMenuItemLink" href="">
+              The Infinity Planes
+            </a>
+            <a className="MobileNavMenuItemLink" href="">
+              Soul Map
+            </a>
+            <a className="MobileNavMenuItemLink" href="">
+              Archetypes
+            </a>
+          </Collapsible.Content>
+
+          <a className="MobileNavMenuItemLink" href="">
+            Dream Stories
+          </a>
+
+          <a className="MobileNavMenuItemLink" href="">
+            Artwork
+          </a>
+
+          <a className="MobileNavMenuItemLink" href="">
+            Artist Statement
+          </a>
+
+          <a className="MobileNavMenuItemLink" href="">
+            Artist Bio
+          </a>
+
+          <a className="MobileNavMenuItemLink" href="">
+            Contact
+          </a>
+        </Collapsible.Root>
+      </Box>
+
+      {/* <DropdownMenu.Root modal={false} onOpenChange={handleOpenChange}>
         <DropdownMenu.Trigger asChild>
           <button
             className="NavigationMenuIcon"
@@ -120,7 +185,7 @@ export default ({ className }) => {
             </DropdownMenu.Item>
           </DropdownMenu.Content>
         </DropdownMenu.Portal>
-      </DropdownMenu.Root>
+      </DropdownMenu.Root> */}
     </Box>
   );
 };
