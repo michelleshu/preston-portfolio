@@ -1,6 +1,7 @@
 .ScrollContainer {
   height: 100%;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
 .ContentContainer .rt-ContainerInner {

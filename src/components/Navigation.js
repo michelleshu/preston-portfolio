@@ -72,7 +72,12 @@ export default () => {
               <ul className="List">
                 <NavigationMenu.Link asChild>
                   <a className="ListItemLink" href="">
-                    Origin
+                    Mythology Defined
+                  </a>
+                </NavigationMenu.Link>
+                <NavigationMenu.Link asChild>
+                  <a className="ListItemLink" href="">
+                    Origin: The Infinity Planes
                   </a>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
@@ -82,17 +87,12 @@ export default () => {
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
                   <a className="ListItemLink" href="">
-                    The Infinity Planes
+                    Oneiryn Frame
                   </a>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
                   <a className="ListItemLink" href="">
-                    Soul Map
-                  </a>
-                </NavigationMenu.Link>
-                <NavigationMenu.Link asChild>
-                  <a className="ListItemLink" href="">
-                    Archetypes
+                    Tensien Cards
                   </a>
                 </NavigationMenu.Link>
               </ul>

@@ -163,7 +163,7 @@ p {
   justify-content: center;
   width: 100%;
   top: 100%;
-  left: -263px;
+  left: -233px;
   perspective: 2000px;
 }
 
@@ -301,7 +301,7 @@ p {
   }
 
   .ViewportPosition {
-    left: -205px;
+    left: -180px;
   }
 }
 

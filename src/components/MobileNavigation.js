@@ -70,19 +70,19 @@ export default ({ className }) => {
           </Collapsible.Trigger>
           <Collapsible.Content className="MobileNavMenuCollapsibleContent">
             <a className="MobileNavMenuItemLink" href="">
-              Origin
+              Mythology Defined
+            </a>
+            <a className="MobileNavMenuItemLink" href="">
+              Origin: The Infinity Planes
             </a>
             <a className="MobileNavMenuItemLink" href="">
               Path of the Infinite Dream
             </a>
             <a className="MobileNavMenuItemLink" href="">
-              The Infinity Planes
+              Oneiryn Frame
             </a>
             <a className="MobileNavMenuItemLink" href="">
-              Soul Map
-            </a>
-            <a className="MobileNavMenuItemLink" href="">
-              Archetypes
+              Tensien Cards
             </a>
           </Collapsible.Content>
 
