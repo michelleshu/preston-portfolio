@@ -1,0 +1,9 @@
+.TileContent {
+  padding-top: 24px;
+}
+
+.TileText {
+  display: block;
+  color: var(--gray-11);
+  margin-bottom: 16px;
+}

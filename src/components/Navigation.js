@@ -6,6 +6,7 @@ import { SocialIcon } from "react-social-icons";
 import MobileNavigation from "./MobileNavigation";
 
 import "./Navigation.css";
+import { Link } from "react-router";
 
 export default () => {
   return (
@@ -65,7 +66,7 @@ export default () => {
         <NavigationMenu.List className="NavigationMenuList">
           <NavigationMenu.Item>
             <NavigationMenu.Trigger className="NavigationMenuTrigger">
-              Personal Mythos{" "}
+              Personal Mythos
               <CaretDownIcon className="CaretDown" aria-hidden />
             </NavigationMenu.Trigger>
             <NavigationMenu.Content className="NavigationMenuContent">
@@ -76,9 +77,9 @@ export default () => {
                   </a>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
-                  <a className="ListItemLink" href="">
+                  <Link to="/origin" className="ListItemLink">
                     Origin: The Infinity Planes
-                  </a>
+                  </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
                   <a className="ListItemLink" href="">

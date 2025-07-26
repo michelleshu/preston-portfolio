@@ -5,7 +5,8 @@ import Starfield from "react-starfield";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
-import "./Home.css";
+import "../style/Main.css";
+import "../style/Home.css";
 
 export default () => (
   <Box>

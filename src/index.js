@@ -7,12 +7,17 @@ import { Theme } from "@radix-ui/themes";
 
 import Home from "./routes/Home";
 import Error from "./routes/Error";
+import Origin from "./routes/mythos/Origin";
 
 const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
     errorElement: <Error />,
+  },
+  {
+    path: "/origin",
+    element: <Origin />,
   },
 ]);
 
