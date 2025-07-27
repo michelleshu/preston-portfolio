@@ -7,3 +7,7 @@
   color: var(--gray-11);
   margin-bottom: 16px;
 }
+
+.TileText:last-of-type {
+  margin-bottom: 0;
+}
