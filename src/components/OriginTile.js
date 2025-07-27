@@ -4,14 +4,19 @@ import { Cross2Icon } from "@radix-ui/react-icons";
 import { Box, Text } from "@radix-ui/themes";
 import "./OriginTile.css";
 
-export default ({ children, text, title }) => {
+export default ({ children, number, title }) => {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
         <Box className="OriginTileBorderBox">
           <Box className="OriginTileBackground">
             <Box className="OriginTileContainer">
-              <Text size="5">{text}</Text>
+              <Text className="NumberText" size="4">
+                {number}
+              </Text>
+              <Text className="FullText" size="4">
+                {number} {title}
+              </Text>
             </Box>
           </Box>
         </Box>
@@ -19,7 +24,9 @@ export default ({ children, text, title }) => {
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content className="DialogContent">
-          <Dialog.Title className="DialogTitle">{title}</Dialog.Title>
+          <Dialog.Title className="DialogTitle">
+            {number} {title}
+          </Dialog.Title>
           {children}
           <Dialog.Close asChild>
             <button className="IconButton" aria-label="Close">
