@@ -38,9 +38,6 @@ export default () => (
           The White Myth That Birthed the Myth
         </Heading>
         <Text as="div" mb="3">
-          by Preston Harris
-        </Text>
-        <Text as="div" mb="3">
           These writings are just a part of the reasoning for why I’m creating
           my own mythology.
         </Text>

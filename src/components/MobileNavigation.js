@@ -79,9 +79,12 @@ export default ({ className }) => {
             </a>
             <Link to="/origin" className="MobileNavMenuItemLink">
               Origin: The Infinity Planes
-            </Link>
+            </Link>{" "}
             <a className="MobileNavMenuItemLink" href="">
-              Path of the Infinite Dream
+              Iconography
+            </a>
+            <a className="MobileNavMenuItemLink" href="">
+              Dream Codex
             </a>
             <a className="MobileNavMenuItemLink" href="">
               Oneiryn Frame

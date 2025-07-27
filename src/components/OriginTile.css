@@ -28,9 +28,11 @@
 }
 
 .NumberText {
+  color: #eaa911;
   display: block;
 }
 .FullText {
+  color: #ffba18;
   display: none;
 }
 
