@@ -155,7 +155,7 @@ export default () => (
             >
               <Tile19 />
             </OriginTile>
-            <OriginTile number="XX." title="(Colorado, and) the Myth I Choose">
+            <OriginTile number="XX." title="The Myth I Choose">
               <Tile20 />
             </OriginTile>
           </Grid>
