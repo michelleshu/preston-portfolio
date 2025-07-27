@@ -24,7 +24,7 @@ export default ({ children, number, title }) => {
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content className="DialogContent">
-          <Dialog.Title className="DialogTitle">
+          <Dialog.Title className="OriginDialogTitle">
             {number} {title}
           </Dialog.Title>
           {children}

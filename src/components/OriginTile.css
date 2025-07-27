@@ -72,10 +72,10 @@
   outline: none;
 }
 
-.DialogTitle {
+.OriginDialogTitle {
   margin: 0;
   font-weight: 500;
-  color: var(--gray-12);
+  color: black;
   font-size: 17px;
 }
 
