@@ -2,8 +2,16 @@ import * as React from "react";
 import { Accordion } from "radix-ui";
 import classNames from "classnames";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
+import { Grid } from "@radix-ui/themes";
+
+import IconographyButton from "./IconographyButton";
 import "./IconographyAccordion.css";
-import { Button, Grid } from "@radix-ui/themes";
+import Fall from "./iconography/Fall";
+import Void from "./iconography/Void";
+import Cloud from "./iconography/Cloud";
+import Lightning from "./iconography/Lightning";
+import Star from "./iconography/Star";
+import Cosmos from "./iconography/Cosmos";
 
 const IconographyAccordion = () => (
   <Accordion.Root className="AccordionRoot" type="single" collapsible>
@@ -15,25 +23,59 @@ const IconographyAccordion = () => (
     <Accordion.Item className="AccordionItem" value="starborn-path">
       <AccordionTrigger>Starborn Path</AccordionTrigger>
       <AccordionContent>
-        <Grid className="StarbornButtonGrid" columns="6" gap="4">
-          <Button color="tomato" variant="soft" highContrast size="3">
-            FALL
-          </Button>
-          <Button color="purple" variant="soft" highContrast size="3">
-            VOID
-          </Button>
-          <Button color="blue" variant="soft" highContrast size="3">
-            CLOUD
-          </Button>
-          <Button color="amber" variant="soft" highContrast size="3">
-            LIGHTNING
-          </Button>
-          <Button color="orange" variant="soft" highContrast size="3">
-            STAR
-          </Button>
-          <Button color="green" variant="soft" highContrast size="3">
-            COSMOS
-          </Button>
+        <Grid
+          className="StarbornButtonGrid"
+          columns={{ initial: "2", sm: "3", md: "6" }}
+          gap="4"
+        >
+          <IconographyButton
+            title="FALL"
+            buttonColor="tomato"
+            dialogColor="rgba(98, 36, 30, 0.8)"
+            dialogTitle="Core Aspect: Desire"
+          >
+            <Fall />
+          </IconographyButton>
+          <IconographyButton
+            title="VOID"
+            buttonColor="purple"
+            dialogColor="rgba(76, 47, 99, 0.8)"
+            dialogTitle="Core Aspect: Mind"
+          >
+            <Void />
+          </IconographyButton>
+          <IconographyButton
+            title="CLOUD"
+            buttonColor="blue"
+            dialogColor="rgba(0, 68, 122, 0.8)"
+            dialogTitle="Core Aspect: Emotion"
+          >
+            <Cloud />
+          </IconographyButton>
+          <IconographyButton
+            title="LIGHTNING"
+            buttonColor="amber"
+            dialogColor="rgba(83, 53, 12, 0.8)"
+            dialogTitle="Core Aspect: Body"
+          >
+            <Lightning />
+          </IconographyButton>
+          <IconographyButton
+            title="STAR"
+            buttonColor="orange"
+            dialogColor="rgba(90, 47, 10, 0.8)"
+            dialogTitle="Core Aspect: Spirit"
+          >
+            <Star />
+          </IconographyButton>
+          <IconographyButton
+            title="COSMOS"
+            buttonColor="green"
+            dialogColor="rgba(30, 79, 59, 0.8)"
+            dialogTitle="Core Aspect: Soul"
+          >
+            <Cosmos />
+          </IconographyButton>
         </Grid>
       </AccordionContent>
     </Accordion.Item>
@@ -70,9 +112,11 @@ const IconographyAccordion = () => (
       </Accordion.Content>
     </Accordion.Item>
     <Accordion.Item className="AccordionItem" value="inner-frequencies">
-      <AccordionTrigger>Inner Frequencies</AccordionTrigger>
+      <AccordionTrigger>Inner Frequencies (Dual Currents)</AccordionTrigger>
       <Accordion.Content className="AccordionContent">
-        <div className="AccordionContentText">Inner Frequencies</div>
+        <div className="AccordionContentText">
+          Inner Frequencies (Dual Currents)
+        </div>
       </Accordion.Content>
     </Accordion.Item>
   </Accordion.Root>

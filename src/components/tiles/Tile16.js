@@ -28,7 +28,7 @@ export default () => {
         Just because we have privilege doesn’t mean that we are less than.
       </Text>
       <Text className="TileText">
-        But if you are a person with privilege—it means they are less than.
+        But if you are a person with privilege, it means they are less than.
       </Text>
       <Text className="TileText">This is the myth in the myth.</Text>
       <Text className="TileText">
