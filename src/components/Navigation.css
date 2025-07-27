@@ -15,6 +15,11 @@ p {
   display: none;
 }
 
+.HomeLink {
+  text-decoration: none;
+  color: white;
+}
+
 .NameText {
   font-size: 16px;
 }

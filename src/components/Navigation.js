@@ -3,10 +3,11 @@ import { NavigationMenu } from "radix-ui";
 import { Flex, Text } from "@radix-ui/themes";
 import { CaretDownIcon } from "@radix-ui/react-icons";
 import { SocialIcon } from "react-social-icons";
+import { Link } from "react-router";
+
 import MobileNavigation from "./MobileNavigation";
 
 import "./Navigation.css";
-import { Link } from "react-router";
 
 export default () => {
   return (
@@ -16,9 +17,11 @@ export default () => {
       style={{ marginTop: "30px" }}
     >
       <Flex direction="column">
-        <Text className="NameText" weight="bold">
-          落ちる天 ALTENSIEN SKYBREAKER
-        </Text>
+        <Link to="/" className="HomeLink">
+          <Text className="NameText" weight="bold">
+            落ちる天 ALTENSIEN SKYBREAKER
+          </Text>
+        </Link>
         <Flex
           className="SocialIconContainer"
           align="center"

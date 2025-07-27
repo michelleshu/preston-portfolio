@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router";
 import * as Collapsible from "@radix-ui/react-collapsible";
 import { Box, Flex } from "@radix-ui/themes";
 import {
@@ -58,6 +59,10 @@ export default ({ className }) => {
           open={isMythosExpanded}
           onOpenChange={setIsMythosExpanded}
         >
+          <Link to="/" className="MobileNavMenuItemLink">
+            Home
+          </Link>
+
           <Collapsible.Trigger className="MobileNavMenuCollapsibleTrigger">
             <Flex
               align="center"
@@ -72,9 +77,9 @@ export default ({ className }) => {
             <a className="MobileNavMenuItemLink" href="">
               Mythology Defined
             </a>
-            <a className="MobileNavMenuItemLink" href="">
+            <Link to="/origin" className="MobileNavMenuItemLink">
               Origin: The Infinity Planes
-            </a>
+            </Link>
             <a className="MobileNavMenuItemLink" href="">
               Path of the Infinite Dream
             </a>
@@ -107,85 +112,6 @@ export default ({ className }) => {
           </a>
         </Collapsible.Root>
       </Box>
-
-      {/* <DropdownMenu.Root modal={false} onOpenChange={handleOpenChange}>
-        <DropdownMenu.Trigger asChild>
-          <button
-            className="NavigationMenuIcon"
-            aria-label="Toggle navigation menu"
-          >
-            {navMenuIcon}
-          </button>
-        </DropdownMenu.Trigger>
-
-        <DropdownMenu.Portal>
-          <DropdownMenu.Content
-            className="MobileNavMenuContent"
-            align="end"
-            alignOffset={-16}
-            side="bottom"
-            sideOffset={16}
-          >
-            <Collapsible.Root
-              open={isMythosExpanded}
-              onOpenChange={setIsMythosExpanded}
-            >
-              <Collapsible.Trigger className="MobileNavMenuCollapsibleTrigger">
-                Personal Mythos
-                {mythosChevron}
-              </Collapsible.Trigger>
-              <Collapsible.Content className="MobileNavMenuCollapsibleContent">
-                <DropdownMenu.Item className="MobileNavMenuSubItem">
-                  <a className="MobileNavMenuItemLink" href="">
-                    Origin
-                  </a>
-                </DropdownMenu.Item>
-                <DropdownMenu.Item className="MobileNavMenuSubItem">
-                  Path of the Infinite Dream
-                </DropdownMenu.Item>
-                <DropdownMenu.Item className="MobileNavMenuSubItem">
-                  The Infinity Planes
-                </DropdownMenu.Item>
-                <DropdownMenu.Item className="MobileNavMenuSubItem">
-                  Soul Map
-                </DropdownMenu.Item>
-                <DropdownMenu.Item className="MobileNavMenuSubItem">
-                  Archetypes
-                </DropdownMenu.Item>
-              </Collapsible.Content>
-            </Collapsible.Root>
-
-            <DropdownMenu.Item className="MobileNavMenuItem">
-              <a className="MobileNavMenuItemLink" href="">
-                Dream Stories
-              </a>
-            </DropdownMenu.Item>
-            <DropdownMenu.Item className="MobileNavMenuItem">
-              <a className="MobileNavMenuItemLink" href="">
-                Artwork
-              </a>
-            </DropdownMenu.Item>
-
-            <DropdownMenu.Item className="MobileNavMenuItem">
-              <a className="MobileNavMenuItemLink" href="">
-                Artist Statement
-              </a>
-            </DropdownMenu.Item>
-
-            <DropdownMenu.Item className="MobileNavMenuItem">
-              <a className="MobileNavMenuItemLink" href="">
-                Artist Bio
-              </a>
-            </DropdownMenu.Item>
-
-            <DropdownMenu.Item className="MobileNavMenuItem">
-              <a className="MobileNavMenuItemLink" href="">
-                Contact
-              </a>
-            </DropdownMenu.Item>
-          </DropdownMenu.Content>
-        </DropdownMenu.Portal>
-      </DropdownMenu.Root> */}
     </Box>
   );
 };
