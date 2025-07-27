@@ -116,6 +116,7 @@
 
 @media screen and (max-width: 800px) {
   .DialogContent {
-    max-width: 85vw;
+    max-height: 70vh;
+    max-width: 80vw;
   }
 }
