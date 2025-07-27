@@ -79,12 +79,12 @@ export default ({ className }) => {
             </a>
             <Link to="/origin" className="MobileNavMenuItemLink">
               Origin: The Infinity Planes
-            </Link>{" "}
+            </Link>
+            <Link to="/codex" className="MobileNavMenuItemLink">
+              Dream Codex
+            </Link>
             <a className="MobileNavMenuItemLink" href="">
               Iconography
-            </a>
-            <a className="MobileNavMenuItemLink" href="">
-              Dream Codex
             </a>
             <a className="MobileNavMenuItemLink" href="">
               Oneiryn Frame

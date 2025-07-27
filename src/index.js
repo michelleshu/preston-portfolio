@@ -8,6 +8,7 @@ import { Theme } from "@radix-ui/themes";
 import Home from "./routes/Home";
 import Error from "./routes/Error";
 import Origin from "./routes/mythos/Origin";
+import DreamCodex from "./routes/mythos/DreamCodex";
 
 const router = createHashRouter([
   {
@@ -18,6 +19,10 @@ const router = createHashRouter([
   {
     path: "/origin",
     element: <Origin />,
+  },
+  {
+    path: "/codex",
+    element: <DreamCodex />,
   },
 ]);
 

@@ -85,13 +85,13 @@ export default () => {
                   </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
-                  <a className="ListItemLink" href="">
-                    Iconography
-                  </a>
+                  <Link to="/codex" className="ListItemLink">
+                    Dream Codex
+                  </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
                   <a className="ListItemLink" href="">
-                    Dream Codex
+                    Iconography
                   </a>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
