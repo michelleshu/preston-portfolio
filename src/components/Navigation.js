@@ -80,14 +80,14 @@ export default () => {
                   </a>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
-                  <a className="ListItemLink" href="">
-                    Iconography
-                  </a>
-                </NavigationMenu.Link>
-                <NavigationMenu.Link asChild>
                   <Link to="/origin" className="ListItemLink">
                     Origin: The Infinity Planes
                   </Link>
+                </NavigationMenu.Link>
+                <NavigationMenu.Link asChild>
+                  <a className="ListItemLink" href="">
+                    Iconography
+                  </a>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
                   <a className="ListItemLink" href="">
