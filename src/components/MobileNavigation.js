@@ -83,9 +83,9 @@ export default ({ className }) => {
             <Link to="/codex" className="MobileNavMenuItemLink">
               Dream Codex
             </Link>
-            <a className="MobileNavMenuItemLink" href="">
+            <Link to="/iconography" className="MobileNavMenuItemLink">
               Iconography
-            </a>
+            </Link>
             <a className="MobileNavMenuItemLink" href="">
               Oneiryn Frame
             </a>

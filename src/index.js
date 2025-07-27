@@ -9,6 +9,7 @@ import Home from "./routes/Home";
 import Error from "./routes/Error";
 import Origin from "./routes/mythos/Origin";
 import DreamCodex from "./routes/mythos/DreamCodex";
+import Iconography from "./routes/mythos/Iconography";
 
 const router = createHashRouter([
   {
@@ -23,6 +24,10 @@ const router = createHashRouter([
   {
     path: "/codex",
     element: <DreamCodex />,
+  },
+  {
+    path: "/iconography",
+    element: <Iconography />,
   },
 ]);
 

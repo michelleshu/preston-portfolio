@@ -24,12 +24,12 @@ export default () => (
             gap="5"
             width="auto"
           >
-            <DreamCodexTile color="#E5484D" title="FALL" />
-            <DreamCodexTile color="#8E4EC6" title="VOID" />
-            <DreamCodexTile color="#0090FF" title="CLOUD" />
-            <DreamCodexTile color="#FFE629" title="LIGHTNING" />
-            <DreamCodexTile color="#F76B15" title="STAR" />
-            <DreamCodexTile color="#30A46C" title="COSMOS" />
+            <DreamCodexTile color="#EC8E7B" title="FALL" />
+            <DreamCodexTile color="#BE93E4" title="VOID" />
+            <DreamCodexTile color="#5EB1EF" title="CLOUD" />
+            <DreamCodexTile color="#E2A336" title="LIGHTNING" />
+            <DreamCodexTile color="#EC9455" title="STAR" />
+            <DreamCodexTile color="#5BB98B" title="COSMOS" />
           </Grid>
         </Section>
         <Footer />

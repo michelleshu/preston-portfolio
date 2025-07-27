@@ -90,9 +90,9 @@ export default () => {
                   </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
-                  <a className="ListItemLink" href="">
+                  <Link to="/iconography" className="ListItemLink" href="">
                     Iconography
-                  </a>
+                  </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
                   <a className="ListItemLink" href="">
