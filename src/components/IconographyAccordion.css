@@ -77,6 +77,15 @@ h3 {
   transform: rotate(180deg);
 }
 
+.IconographyParagraph {
+  display: block;
+  line-height: 1.5;
+}
+
+.IconographyBreak {
+  height: 16px;
+}
+
 @keyframes slideDown {
   from {
     height: 0;

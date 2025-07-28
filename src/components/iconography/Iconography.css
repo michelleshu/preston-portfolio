@@ -5,9 +5,26 @@
 .IconographyText {
   display: block;
   color: white;
-  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.IconographyTextDark {
+  display: block;
+  color: var(--gray-10);
+  line-height: 1.5;
+}
+
+.IconographyTextDarkBold {
+  display: block;
+  color: var(--gray-11);
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .IconographyText:last-of-type {
   margin-bottom: 0;
+}
+
+.IconographyBreak {
+  height: 16px;
 }
