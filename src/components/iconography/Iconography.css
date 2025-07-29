@@ -25,6 +25,16 @@
   margin-bottom: 0;
 }
 
+.IconographyScrollContainer {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.IconographyParagraph {
+  display: block;
+  line-height: 1.5;
+}
+
 .IconographyBreak {
   height: 16px;
 }
