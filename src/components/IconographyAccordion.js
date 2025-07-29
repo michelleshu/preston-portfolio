@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { Accordion } from "radix-ui";
 import classNames from "classnames";
-import { ChevronDownIcon, TriangleDownIcon } from "@radix-ui/react-icons";
+import {
+  ChevronDownIcon,
+  TriangleDownIcon,
+  TriangleUpIcon,
+} from "@radix-ui/react-icons";
 import { Box, Button, Grid, Text } from "@radix-ui/themes";
 
 import IconographyButton from "./IconographyButton";
@@ -86,17 +90,17 @@ const IconographyAccordion = () => {
               variant="outline"
               color="gold"
               size="2"
-              onClick={() => setStarbornExpanded(true)}
-              style={{ display: starbornExpanded ? "none" : "flex" }}
+              onClick={() => setStarbornExpanded(!starbornExpanded)}
             >
-              <TriangleDownIcon />
-              Show more detail
+              {starbornExpanded ? <TriangleUpIcon /> : <TriangleDownIcon />}
+              {starbornExpanded ? "Hide detail" : "Show more detail"}
             </Button>
 
             <Box
               className="StarbornMoreDetail"
               style={{ display: starbornExpanded ? "block" : "none" }}
             >
+              <div className="IconographyBreak"></div>
               <Text as="p" className="IconographyParagraph">
                 Honestly, this was like a collage.
               </Text>
