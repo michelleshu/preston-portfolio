@@ -45,7 +45,7 @@ export default () => {
         <Text as="span" weight="bold">
           Star
         </Text>
-        : becoming one with the cosmos, a place where we all meet, all touched
+        : becoming one with the universe, a place where we all meet, all touched
         with infinite possibilities, realms and imagination; that place is
         called the;
       </Text>
@@ -59,7 +59,6 @@ export default () => {
       <div className="IconographyBreak"></div>
 
       <Button
-        className="StarbornShowMoreButton"
         variant="outline"
         color="gold"
         size="2"
