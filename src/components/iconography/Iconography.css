@@ -2,6 +2,24 @@
   padding-top: 24px;
 }
 
+.IconographyTitle {
+  color: var(--gray-12);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.IconographySubtitle {
+  color: var(--gray-11);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.IconographyTitle {
+  display: block;
+  margin-bottom: 8px;
+}
+
 .IconographyText {
   display: block;
   color: white;

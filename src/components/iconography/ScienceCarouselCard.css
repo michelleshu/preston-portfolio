@@ -1,0 +1,47 @@
+.ScienceCarouselCard {
+  border-radius: 8px;
+  padding: 24px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.ScienceCarouselCardOverlay {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.ScienceCarouselBlackOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.ScienceCarouselCardContent {
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+
+.ScienceCarouselCardImage {
+  display: none;
+  border-radius: 2px;
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+}

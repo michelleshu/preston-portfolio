@@ -13,6 +13,7 @@ import Dream from "./iconography/Dream";
 import Dreamscape from "./iconography/Dreamscape";
 import Fall from "./iconography/Fall";
 import Lightning from "./iconography/Lightning";
+import MainSequenceCard from "./iconography/MainSequenceCard";
 import Metaphor from "./iconography/Metaphor";
 import Negative from "./iconography/Negative";
 import Nightmare from "./iconography/Nightmare";
@@ -20,11 +21,49 @@ import Polarity from "./iconography/Polarity";
 import PolarityContent from "./iconography/PolarityContent";
 import Positive from "./iconography/Positive";
 import PositiveNegative from "./iconography/PositiveNegative";
+import ProtostarCard from "./iconography/ProtostarCard";
+import RedGiantCard from "./iconography/RedGiantCard";
+import Science from "./iconography/Science";
+import ScienceCarousel from "./iconography/ScienceCarousel";
+import ScienceCarouselCard from "./iconography/ScienceCarouselCard";
 import Star from "./iconography/Star";
 import StarbornPath from "./iconography/StarbornPath";
+import StarRemnantCard from "./iconography/StarRemnantCard";
+import StellarNebulaCard from "./iconography/StellarNebulaCard";
+import SupernovaCard from "./iconography/SupernovaCard";
 import Void from "./iconography/Void";
 
+import MainSequence from "../images/main-sequence.jpeg";
+import Protostar from "../images/protostar.jpg";
+import RedGiant from "../images/red-giant.jpg";
+import StarRemnant from "../images/star-remnant.jpeg";
+import StellarNebula from "../images/stellar-nebula.jpeg";
+import Supernova from "../images/supernova.jpeg";
+
 const IconographyAccordion = () => {
+  const SCIENCE_CAROUSEL_OPTIONS = { align: "start", loop: false };
+
+  const SCIENCE_CAROUSEL_SLIDES = [
+    <ScienceCarouselCard image={StellarNebula}>
+      <StellarNebulaCard />
+    </ScienceCarouselCard>,
+    <ScienceCarouselCard image={Protostar}>
+      <ProtostarCard />
+    </ScienceCarouselCard>,
+    <ScienceCarouselCard image={MainSequence}>
+      <MainSequenceCard />
+    </ScienceCarouselCard>,
+    <ScienceCarouselCard image={RedGiant}>
+      <RedGiantCard />
+    </ScienceCarouselCard>,
+    <ScienceCarouselCard image={Supernova}>
+      <SupernovaCard />
+    </ScienceCarouselCard>,
+    <ScienceCarouselCard image={StarRemnant}>
+      <StarRemnantCard />
+    </ScienceCarouselCard>,
+  ];
+
   return (
     <Accordion.Root className="AccordionRoot" type="single" collapsible>
       <Accordion.Item className="AccordionItem" value="infinity-planes">
@@ -104,7 +143,13 @@ const IconographyAccordion = () => {
 
       <Accordion.Item className="AccordionItem" value="science">
         <AccordionTrigger>Science</AccordionTrigger>
-        <AccordionContent>Science</AccordionContent>
+        <AccordionContent>
+          <Science />
+          <ScienceCarousel
+            slides={SCIENCE_CAROUSEL_SLIDES}
+            options={SCIENCE_CAROUSEL_OPTIONS}
+          />
+        </AccordionContent>
       </Accordion.Item>
 
       <Accordion.Item className="AccordionItem" value="dreamscape">
