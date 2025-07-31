@@ -67,7 +67,6 @@ export default () => {
           growth? Your dreams?”
         </Text>
       </Box>
-      <div className="IconographyBreak"></div>
     </Box>
   );
 };

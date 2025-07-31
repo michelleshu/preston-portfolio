@@ -50,14 +50,14 @@ const IconographyAccordion = () => {
     <ScienceCarouselCard image={Protostar}>
       <ProtostarCard />
     </ScienceCarouselCard>,
-    <ScienceCarouselCard image={MainSequence}>
-      <MainSequenceCard />
+    <ScienceCarouselCard image={Supernova}>
+      <SupernovaCard />
     </ScienceCarouselCard>,
     <ScienceCarouselCard image={RedGiant}>
       <RedGiantCard />
     </ScienceCarouselCard>,
-    <ScienceCarouselCard image={Supernova}>
-      <SupernovaCard />
+    <ScienceCarouselCard image={MainSequence}>
+      <MainSequenceCard />
     </ScienceCarouselCard>,
     <ScienceCarouselCard image={StarRemnant}>
       <StarRemnantCard />
