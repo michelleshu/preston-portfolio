@@ -162,7 +162,7 @@ const IconographyAccordion = () => {
         <AccordionTrigger>Dreamscape</AccordionTrigger>
         <AccordionContent>
           <Dreamscape />
-          <Flex gap="4" mt="4" mb="2">
+          <Flex gap="4" mt="4" mb="2" wrap="wrap">
             <IconographyButtonWhite
               title="DREAM"
               buttonVariant="solid"
@@ -199,7 +199,7 @@ const IconographyAccordion = () => {
         <AccordionTrigger>Positive and Negative</AccordionTrigger>
         <AccordionContent>
           <PositiveNegative />
-          <Flex gap="4" mt="4" mb="2">
+          <Flex gap="4" mt="4" mb="2" wrap="wrap">
             <IconographyButtonWhite
               title="POSITIVE"
               buttonVariant="solid"
@@ -221,7 +221,7 @@ const IconographyAccordion = () => {
         <AccordionTrigger>Inner Frequencies (Dual Currents)</AccordionTrigger>
         <AccordionContent className="AccordionContent">
           <InnerFrequencies />
-          <Flex gap="4" mt="4" mb="2">
+          <Flex gap="4" mt="4" mb="2" wrap="wrap">
             <IconographyButtonWhite
               title="RESONANCE"
               buttonVariant="solid"
