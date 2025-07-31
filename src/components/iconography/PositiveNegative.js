@@ -15,6 +15,14 @@ export default () => {
         emotion, how we evolve: spiritually, mentally, socially, creatively.
       </Text>
       <div className="IconographyBreak"></div>
+      <Text as="p" className="IconographyParagraph">
+        Positive and Negative are not good and evil, light and dark, right and
+        wrong. No, those things are responses to the self or ego's
+        interpretation of positive and negative. They aren’t moral terms, truly.
+        They are movements. Frequencies, I would call them. They are the scales
+        by which the Infinity Planes abide.
+      </Text>
+      <div className="IconographyBreak"></div>
 
       <Button
         variant="outline"
@@ -30,14 +38,6 @@ export default () => {
         className="PositiveNegativeMoreDetail"
         style={{ display: positiveNegativeExpanded ? "block" : "none" }}
       >
-        <div className="IconographyBreak"></div>
-        <Text as="p" className="IconographyParagraph">
-          Positive and Negative are not good and evil, light and dark, right and
-          wrong. No, those things are responses to the self or ego's
-          interpretation of positive and negative. They aren’t moral terms,
-          truly. They are movements. Frequencies, I would call them. They are
-          the scales by which the Infinity Planes abide.
-        </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
           In the dream world, they are not seen as opposites but as co-creators.

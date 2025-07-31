@@ -16,6 +16,12 @@ export default () => {
         Something explainable and unexplainable. The definitions are vast.
       </Text>
       <div className="IconographyBreak"></div>
+      <Text as="p" className="IconographyParagraph">
+        States of influence that overlay archetypes and meanings. They alter
+        perception, enhance symbolism, and serve as entry points to alternate
+        realities.
+      </Text>
+      <div className="IconographyBreak"></div>
 
       <Button
         variant="outline"
@@ -31,12 +37,6 @@ export default () => {
         className="DreamscapeMoreDetail"
         style={{ display: dreamscapeExpanded ? "block" : "none" }}
       >
-        <div className="IconographyBreak"></div>
-        <Text as="p" className="IconographyParagraph">
-          States of influence that overlay archetypes and meanings. They alter
-          perception, enhance symbolism, and serve as entry points to alternate
-          realities.
-        </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
           But why are nightmares always seen in a condescending light?

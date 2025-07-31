@@ -1,17 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import { Accordion } from "radix-ui";
 import classNames from "classnames";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
-import { Box, Flex, Grid, Text } from "@radix-ui/themes";
+import { Flex, Grid } from "@radix-ui/themes";
 
 import IconographyButton from "./IconographyButton";
 import IconographyButtonWhite from "./IconographyButtonWhite";
 import "./IconographyAccordion.css";
 import Cloud from "./iconography/Cloud";
 import Cosmos from "./iconography/Cosmos";
+import Dissonance from "./iconography/Dissonance";
 import Dream from "./iconography/Dream";
 import Dreamscape from "./iconography/Dreamscape";
 import Fall from "./iconography/Fall";
+import InfinityPlanes from "./iconography/InfinityPlanes";
+import InnerFrequencies from "./iconography/InnerFrequencies";
 import Lightning from "./iconography/Lightning";
 import MainSequenceCard from "./iconography/MainSequenceCard";
 import Metaphor from "./iconography/Metaphor";
@@ -23,6 +26,7 @@ import Positive from "./iconography/Positive";
 import PositiveNegative from "./iconography/PositiveNegative";
 import ProtostarCard from "./iconography/ProtostarCard";
 import RedGiantCard from "./iconography/RedGiantCard";
+import Resonance from "./iconography/Resonance";
 import Science from "./iconography/Science";
 import ScienceCarousel from "./iconography/ScienceCarousel";
 import ScienceCarouselCard from "./iconography/ScienceCarouselCard";
@@ -68,7 +72,9 @@ const IconographyAccordion = () => {
     <Accordion.Root className="AccordionRoot" type="single" collapsible>
       <Accordion.Item className="AccordionItem" value="infinity-planes">
         <AccordionTrigger>The Infinity Planes</AccordionTrigger>
-        <AccordionContent>The Infinity Planes</AccordionContent>
+        <AccordionContent>
+          <InfinityPlanes />
+        </AccordionContent>
       </Accordion.Item>
 
       <Accordion.Item className="AccordionItem" value="starborn-path">
@@ -213,11 +219,25 @@ const IconographyAccordion = () => {
       </Accordion.Item>
       <Accordion.Item className="AccordionItem" value="inner-frequencies">
         <AccordionTrigger>Inner Frequencies (Dual Currents)</AccordionTrigger>
-        <Accordion.Content className="AccordionContent">
-          <div className="AccordionContentText">
-            Inner Frequencies (Dual Currents)
-          </div>
-        </Accordion.Content>
+        <AccordionContent className="AccordionContent">
+          <InnerFrequencies />
+          <Flex gap="4" mt="4" mb="2">
+            <IconographyButtonWhite
+              title="RESONANCE"
+              buttonVariant="solid"
+              dialogTitle="Resonance"
+            >
+              <Resonance />
+            </IconographyButtonWhite>
+            <IconographyButtonWhite
+              title="DISSONANCE"
+              buttonVariant="outline"
+              dialogTitle="Dissonance"
+            >
+              <Dissonance />
+            </IconographyButtonWhite>
+          </Flex>
+        </AccordionContent>
       </Accordion.Item>
     </Accordion.Root>
   );

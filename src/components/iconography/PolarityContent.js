@@ -14,6 +14,15 @@ export default () => {
         negative. But these do not mean good or bad.
       </Text>
       <div className="IconographyBreak"></div>
+      <Text as="p" className="IconographyParagraph">
+        Because as human beings, with all the complexity and multiplicity that
+        comes with being human, our sense of positive and negative is never the
+        same. We feel them differently. They align differently. They shift. So
+        how does one navigate the world and their own existence? I believe that
+        individuals shape their existences through their beliefs, almost
+        innately, maybe?
+      </Text>
+      <div className="IconographyBreak"></div>
 
       <Button
         variant="outline"
@@ -29,15 +38,6 @@ export default () => {
         className="PolarityMoreDetail"
         style={{ display: polarityExpanded ? "block" : "none" }}
       >
-        <div className="IconographyBreak"></div>
-        <Text as="p" className="IconographyParagraph">
-          Because as human beings, with all the complexity and multiplicity that
-          comes with being human, our sense of positive and negative is never
-          the same. We feel them differently. They align differently. They
-          shift. So how does one navigate the world and their own existence? I
-          believe that individuals shape their existences through their beliefs,
-          almost innately, maybe?
-        </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
           The concept of good or evil, in my opinion, was too much for humans to
