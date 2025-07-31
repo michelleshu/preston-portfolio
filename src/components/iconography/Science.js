@@ -1,11 +1,21 @@
 import React, { useState } from "react";
-import { Box, Button, Text } from "@radix-ui/themes";
-import { TriangleDownIcon, TriangleUpIcon } from "@radix-ui/react-icons";
+import { Box, Button, Flex, Text } from "@radix-ui/themes";
+import {
+  OpenInNewWindowIcon,
+  TriangleDownIcon,
+  TriangleUpIcon,
+} from "@radix-ui/react-icons";
+import Lightbox from "yet-another-react-lightbox";
+import { Zoom } from "yet-another-react-lightbox/plugins";
+import "yet-another-react-lightbox/styles.css";
 
 import "./Iconography.css";
 
+import ScienceChart from "../../images/science-chart.png";
+
 export default () => {
   const [scienceExpanded, setScienceExpanded] = useState(false);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
 
   return (
     <Box className="IconographyScrollContainer">
@@ -19,15 +29,34 @@ export default () => {
       </Text>
       <div className="IconographyBreak"></div>
 
-      <Button
-        variant="outline"
-        color="gold"
-        size="2"
-        onClick={() => setScienceExpanded(!scienceExpanded)}
-      >
-        {scienceExpanded ? <TriangleUpIcon /> : <TriangleDownIcon />}
-        {scienceExpanded ? "Hide detail" : "Show more detail"}
-      </Button>
+      <Flex justify="between">
+        <Button
+          variant="outline"
+          color="gold"
+          size="2"
+          onClick={() => setScienceExpanded(!scienceExpanded)}
+        >
+          {scienceExpanded ? <TriangleUpIcon /> : <TriangleDownIcon />}
+          {scienceExpanded ? "Hide detail" : "Show more detail"}
+        </Button>
+        <Button
+          variant="outline"
+          color="gold"
+          size="2"
+          onClick={() => setLightboxOpen(true)}
+        >
+          <OpenInNewWindowIcon />
+          Open star chart
+        </Button>
+      </Flex>
+
+      <Lightbox
+        open={lightboxOpen}
+        close={() => setLightboxOpen(false)}
+        carousel={{ finite: true }}
+        slides={[{ src: ScienceChart }]}
+        plugins={[Zoom]}
+      />
 
       <Box
         className="ScienceMoreDetail"
