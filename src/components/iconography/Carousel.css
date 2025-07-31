@@ -1,7 +1,7 @@
 .embla {
   margin-top: 30px;
   --slide-height: 20rem;
-  --slide-spacing: 1.2rem;
+  --slide-spacing: 16px;
   --slide-size: 98%;
 }
 .embla__viewport {
@@ -21,7 +21,7 @@
 
 @media (min-width: 1000px) {
   .embla__slide {
-    flex: 0 0 48%;
+    flex: 0 0 49%;
   }
 }
 
