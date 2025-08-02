@@ -7,15 +7,20 @@ import { Theme } from "@radix-ui/themes";
 
 import Home from "./routes/Home";
 import Error from "./routes/Error";
-import Origin from "./routes/mythos/Origin";
 import DreamCodex from "./routes/mythos/DreamCodex";
 import Iconography from "./routes/mythos/Iconography";
+import MythologyDefined from "./routes/mythos/MythologyDefined";
+import Origin from "./routes/mythos/Origin";
 
 const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
     errorElement: <Error />,
+  },
+  {
+    path: "/mythology-defined",
+    element: <MythologyDefined />,
   },
   {
     path: "/origin",

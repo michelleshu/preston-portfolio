@@ -74,9 +74,9 @@ export default ({ className }) => {
             </Flex>
           </Collapsible.Trigger>
           <Collapsible.Content className="MobileNavMenuCollapsibleContent">
-            <a className="MobileNavMenuItemLink" href="">
+            <Link to="/mythology-defined" className="MobileNavMenuItemLink">
               Mythology Defined
-            </a>
+            </Link>
             <Link to="/origin" className="MobileNavMenuItemLink">
               Origin: The Infinity Planes
             </Link>

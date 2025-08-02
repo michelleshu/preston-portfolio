@@ -75,9 +75,9 @@ export default () => {
             <NavigationMenu.Content className="NavigationMenuContent">
               <ul className="List">
                 <NavigationMenu.Link asChild>
-                  <a className="ListItemLink" href="">
+                  <Link to="/mythology-defined" className="ListItemLink">
                     Mythology Defined
-                  </a>
+                  </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
                   <Link to="/origin" className="ListItemLink">
