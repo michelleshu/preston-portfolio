@@ -6,6 +6,7 @@ import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 
 import Home from "./routes/Home";
+import DreamStories from "./routes/DreamStories";
 import Error from "./routes/Error";
 import DreamCodex from "./routes/mythos/DreamCodex";
 import Iconography from "./routes/mythos/Iconography";
@@ -33,6 +34,10 @@ const router = createHashRouter([
   {
     path: "/iconography",
     element: <Iconography />,
+  },
+  {
+    path: "/dream-stories",
+    element: <DreamStories />,
   },
 ]);
 

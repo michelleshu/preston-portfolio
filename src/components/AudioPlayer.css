@@ -1,0 +1,90 @@
+.TrackTitle {
+  color: white;
+}
+
+.TrackDate {
+  color: var(--gray-11);
+}
+
+.DreamStoriesAudioPlayer.rhap_container {
+  background-color: var(--gray-2);
+  border-radius: 4px;
+  border: 1px solid var(--gray-7);
+  padding: 16px 24px;
+}
+
+.DreamStoriesAudioPlayer .rhap_controls-section {
+  justify-content: center;
+}
+
+.DreamStoriesAudioPlayer .rhap_time {
+  color: var(--gray-11);
+}
+
+.DreamStoriesAudioPlayer .rhap_progress-indicator {
+  background-color: var(--gray-9);
+}
+
+.DreamStoriesAudioPlayer .rhap_progress-filled {
+  background-color: var(--gray-9);
+}
+
+.DreamStoriesAudioPlayer .rhap_download-progress {
+  background-color: var(--gray-11);
+}
+
+.DreamStoriesAudioPlayer .rhap_main-controls-button {
+  color: var(--gray-9);
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+}
+
+.DreamStoriesAudioPlayer .rhap_play-pause-button {
+  font-size: 28px;
+}
+
+.DreamStoriesAudioPlayer .rhap_skip-button {
+  font-size: 24px;
+}
+
+.DreamStoriesAudioPlayer .rhap_main-controls-button:hover {
+  color: var(--gray-11);
+}
+
+.DreamStoriesAudioPlayer .rhap_volume-button {
+  color: var(--gray-9);
+}
+
+.DreamStoriesAudioPlayer .rhap_volume-bar {
+  background-color: var(--gray-11);
+}
+
+.DreamStoriesAudioPlayer .rhap_volume-indicator {
+  background-color: var(--gray-9);
+}
+
+.DreamStoriesTrackContainer {
+  border-radius: 4px;
+  border: 1px solid var(--gray-7);
+}
+
+.DreamStoriesTrackItem {
+  border-bottom: 1px solid var(--gray-5);
+  color: var(--gray-9);
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.DreamStoriesTrackItem:hover {
+  background-color: var(--gray-2);
+  color: var(--gray-11);
+}
+
+.DreamStoriesTrackItem:last-of-type {
+  border-bottom: none;
+}
+
+.DreamStoriesTrackItem.Active {
+  color: var(--gray-11);
+}

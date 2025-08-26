@@ -109,8 +109,10 @@ export default () => {
           </NavigationMenu.Item>
 
           <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="">
-              Dream Stories
+            <NavigationMenu.Link asChild>
+              <Link to="/dream-stories" className="NavigationMenuLink">
+                Dream Stories
+              </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>

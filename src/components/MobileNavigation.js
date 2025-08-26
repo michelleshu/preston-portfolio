@@ -94,9 +94,9 @@ export default ({ className }) => {
             </a>
           </Collapsible.Content>
 
-          <a className="MobileNavMenuItemLink" href="">
+          <Link to="/dream-stories" className="MobileNavMenuItemLink">
             Dream Stories
-          </a>
+          </Link>
 
           <a className="MobileNavMenuItemLink" href="">
             Artwork
