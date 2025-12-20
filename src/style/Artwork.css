@@ -1,0 +1,9 @@
+.ArtworkCategoryLink {
+  cursor: pointer;
+}
+
+.ArtworkCategoryLink a,
+a:link,
+a:visited {
+  text-decoration: none;
+}

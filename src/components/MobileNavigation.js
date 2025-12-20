@@ -98,9 +98,9 @@ export default ({ className }) => {
             Dream Stories
           </Link>
 
-          <a className="MobileNavMenuItemLink" href="">
+          <Link to="/artwork" className="MobileNavMenuItemLink">
             Artwork
-          </a>
+          </Link>
 
           <a className="MobileNavMenuItemLink" href="">
             Artist Statement

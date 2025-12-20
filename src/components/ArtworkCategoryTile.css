@@ -1,0 +1,63 @@
+.ArtworkCategoryTile {
+  padding: 120px 24px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.ArtworkCategoryTileBackground {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.ArtworkCategoryTileOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.ArtworkCategoryTile:hover .ArtworkCategoryTileOverlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 250ms ease;
+}
+
+.ArtworkCategoryTileContent {
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.ArtworkCategoryTileTitleText {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0);
+  pointer-events: none;
+}
+
+.ArtworkCategoryTile:hover .ArtworkCategoryTileTitleText {
+  color: rgba(255, 255, 255, 1);
+  transition: color 250ms ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .ArtworkCategoryTileOverlay {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .ArtworkCategoryTileTitleText {
+    color: rgba(255, 255, 255, 1);
+  }
+}

@@ -116,8 +116,17 @@ export default () => {
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="">
-              Artwork
+            <NavigationMenu.Link asChild>
+              <Link to="/artwork" className="NavigationMenuLink">
+                Artwork
+              </Link>
+            </NavigationMenu.Link>
+          </NavigationMenu.Item>
+          <NavigationMenu.Item>
+            <NavigationMenu.Link asChild>
+              <Link to="/shop" className="NavigationMenuLink">
+                Shop
+              </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
