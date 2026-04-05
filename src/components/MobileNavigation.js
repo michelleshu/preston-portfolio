@@ -80,8 +80,11 @@ export default ({ className }) => {
             <Link to="/origin" className="MobileNavMenuItemLink">
               Origin: The Infinity Planes
             </Link>
-            <Link to="/codex" className="MobileNavMenuItemLink">
-              Dream Codex
+            <Link
+              to="/path-of-the-infinite-dream"
+              className="MobileNavMenuItemLink"
+            >
+              Path of the Infinite Dream
             </Link>
             <Link to="/iconography" className="MobileNavMenuItemLink">
               Iconography

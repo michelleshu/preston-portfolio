@@ -14,7 +14,7 @@ import Collages from "./routes/galleries/Collages";
 import Current from "./routes/galleries/Current";
 import DelegatedAbstraction from "./routes/galleries/DelegatedAbstraction";
 import OlderWork from "./routes/galleries/OlderWork";
-import DreamCodex from "./routes/mythos/DreamCodex";
+import PathOfTheInfiniteDream from "./routes/mythos/PathOfTheInfiniteDream";
 import Iconography from "./routes/mythos/Iconography";
 import MythologyDefined from "./routes/mythos/MythologyDefined";
 import Origin from "./routes/mythos/Origin";
@@ -34,8 +34,8 @@ const router = createHashRouter([
     element: <Origin />,
   },
   {
-    path: "/codex",
-    element: <DreamCodex />,
+    path: "/path-of-the-infinite-dream",
+    element: <PathOfTheInfiniteDream />,
   },
   {
     path: "/iconography",
@@ -77,5 +77,5 @@ root.render(
     <Theme appearance="dark">
       <RouterProvider router={router} />
     </Theme>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

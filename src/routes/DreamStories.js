@@ -29,11 +29,11 @@ export default () => {
                 events.
               </Text>
               <Text as="p">
-                Over time, these stories may grow into pieces of the Infinity
-                Planes, transforming into their own art forms and taking on new
-                mediums to explore my inner world. I invite you into this space
-                and am excited to share my imagination. A true glimpse into what
-                my dreams and closed-eye space hold.
+                Over time, these stories may grow into pieces of the{" "}
+                <em>Infinity Planes</em>, transforming into their own art forms
+                and taking on new mediums to explore my inner world. I invite
+                you into this space and am excited to share my imagination. A
+                true glimpse into what my dreams and closed-eye space hold.
               </Text>
             </Flex>
             <AudioPlayer />

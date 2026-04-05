@@ -19,7 +19,7 @@ export default () => {
       <Flex direction="column">
         <Link to="/" className="HomeLink">
           <Text className="NameText" weight="bold">
-            落ちる天 ALTENSIEN SKYBREAKER
+            落ちる天 A - SKYBREAKER
           </Text>
         </Link>
         <Flex
@@ -85,8 +85,11 @@ export default () => {
                   </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
-                  <Link to="/codex" className="ListItemLink">
-                    Dream Codex
+                  <Link
+                    to="/path-of-the-infinite-dream"
+                    className="ListItemLink"
+                  >
+                    Path of the Infinite Dream
                   </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
