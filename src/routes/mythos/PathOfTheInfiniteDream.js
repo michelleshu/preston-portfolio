@@ -1,15 +1,24 @@
 import React from "react";
 import { Accordion } from "radix-ui";
+import { Dialog } from "radix-ui";
 import classNames from "classnames";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { Box, Container, Grid, Section, Text } from "@radix-ui/themes";
 
 import Starfield from "react-starfield";
+import CubePoem from "../../components/CubePoem";
 import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
 
 import "../../style/Main.css";
 import DreamCodexTile from "../../components/DreamCodexTile";
+
+import Cube1 from "../../images/cube1.png";
+import Cube2 from "../../images/cube2.png";
+import Cube3 from "../../images/cube3.png";
+import Cube4 from "../../images/cube4.png";
+
+import "../../style/PathOfTheInfiniteDream.css";
 
 const PathOfTheInfiniteDream = () => (
   <Box>
@@ -17,7 +26,71 @@ const PathOfTheInfiniteDream = () => (
     <Box className="ScrollContainer">
       <Container className="ContentContainer">
         <Navigation />
-        <Section>
+        <Box mt="9" mb="9">
+          <Grid
+            columns={{ initial: "2", sm: "2", md: "4" }}
+            gap="5"
+            width="auto"
+          >
+            <CubePoem imgSrc={Cube1} dialogTitle="Cube 1">
+              <Text className="CubePoemText">
+                Fall through the glass of liminal space,
+              </Text>
+              <Text className="CubePoemText">
+                The void opens, heavy yet frictionless.
+              </Text>
+              <Text className="CubePoemText">
+                The void breathes its nothingness,
+              </Text>
+              <Text className="CubePoemText">
+                Light and dark cease to hold meaning.
+              </Text>
+            </CubePoem>
+            <CubePoem imgSrc={Cube2} dialogTitle="Cube 2">
+              <Text className="CubePoemText">
+                Clouds swirl, their edges vibrating,
+              </Text>
+              <Text className="CubePoemText">
+                Thunder resonates in a language I almost understand.
+              </Text>
+              <Text className="CubePoemText">
+                Lightning carves its mark, splitting the air,
+              </Text>
+              <Text className="CubePoemText">
+                Flesh dissolves into shards of prismatic light.
+              </Text>
+            </CubePoem>
+            <CubePoem imgSrc={Cube3} dialogTitle="Cube 3">
+              <Text className="CubePoemText">
+                A star erupts, scattering fragments of self,
+              </Text>
+              <Text className="CubePoemText">
+                Eyes burn, twin stars igniting a forgotten path.
+              </Text>
+              <Text className="CubePoemText">
+                The cosmos stretches infinitely,
+              </Text>
+              <Text className="CubePoemText">
+                A realm of rippling energy and latent silence.
+              </Text>
+            </CubePoem>
+            <CubePoem imgSrc={Cube4} dialogTitle="Cube 4">
+              <Text className="CubePoemText">
+                Positive and negative dissolve and reform,
+              </Text>
+              <Text className="CubePoemText">
+                A scale tipping, yet never settling.
+              </Text>
+              <Text className="CubePoemText">
+                To ascend is to unravel completely,
+              </Text>
+              <Text className="CubePoemText">
+                The Infinity Plane pulls, infinite and ineffable.
+              </Text>
+            </CubePoem>
+          </Grid>
+        </Box>
+        <Box mb="9">
           <Grid
             columns={{ initial: "2", sm: "3", md: "6" }}
             gap="5"
@@ -30,8 +103,8 @@ const PathOfTheInfiniteDream = () => (
             <DreamCodexTile color="#EC9455" title="STAR" />
             <DreamCodexTile color="#5BB98B" title="COSMOS" />
           </Grid>
-        </Section>
-        <Box mt="0" mb="9">
+        </Box>
+        <Box mb="9">
           <Accordion.Root className="AccordionRoot" type="single" collapsible>
             <Accordion.Item className="AccordionItem" value="infinity-planes">
               <AccordionTrigger>The Infinity Planes</AccordionTrigger>
