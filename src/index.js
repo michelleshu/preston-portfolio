@@ -6,7 +6,9 @@ import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 
 import Home from "./routes/Home";
+import ArtistStatement from "./routes/ArtistStatement";
 import Artwork from "./routes/Artwork";
+import Bio from "./routes/Bio";
 import DreamStories from "./routes/DreamStories";
 import Error from "./routes/Error";
 import Automatic from "./routes/galleries/Automatic";
@@ -68,6 +70,14 @@ const router = createHashRouter([
   {
     path: "/artwork-older-work",
     element: <OlderWork />,
+  },
+  {
+    path: "/artist-statement",
+    element: <ArtistStatement />,
+  },
+  {
+    path: "/bio",
+    element: <Bio />,
   },
 ]);
 

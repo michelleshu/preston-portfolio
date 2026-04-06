@@ -126,13 +126,17 @@ export default () => {
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="">
-              Artist Statement
+            <NavigationMenu.Link asChild>
+              <Link to="/artist-statement" className="NavigationMenuLink">
+                Artist Statement
+              </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="">
-              Artist Bio
+            <NavigationMenu.Link asChild>
+              <Link to="/bio" className="NavigationMenuLink">
+                Artist Bio
+              </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
