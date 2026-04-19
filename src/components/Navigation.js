@@ -85,14 +85,6 @@ export default () => {
                   </Link>
                 </NavigationMenu.Link>
                 <NavigationMenu.Link asChild>
-                  <Link
-                    to="/path-of-the-infinite-dream"
-                    className="ListItemLink"
-                  >
-                    Path of the Infinite Dream
-                  </Link>
-                </NavigationMenu.Link>
-                <NavigationMenu.Link asChild>
                   <Link to="/iconography" className="ListItemLink" href="">
                     Iconography
                   </Link>
@@ -113,8 +105,11 @@ export default () => {
 
           <NavigationMenu.Item>
             <NavigationMenu.Link asChild>
-              <Link to="/dream-stories" className="NavigationMenuLink">
-                Dream Stories
+              <Link
+                to="/path-of-the-infinite-dream"
+                className="NavigationMenuLink"
+              >
+                Path of the Infinite Dream
               </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>

@@ -83,14 +83,14 @@ export default () => (
                 into something recognizable. Altensien is both Harris and not
                 Harris simultaneously: an extension of perception, a functional
                 state of being that allows him to move through the{" "}
-                <em>Infinity Planes</em>
-                from shifting positions, as observer, participant, and
-                instigator. When Harris returns from that state, he carries
-                fragments of what was found there, dream images, myth symbols,
-                and visual language that could not have been accessed any other
-                way. As Altensien has written: "Sometimes I close my eyes and by
-                the time I open them, I am somewhere else entirely." That is the
-                experience the work is built from.
+                <em>Infinity Planes</em> from shifting positions, as observer,
+                participant, and instigator. When Harris returns from that
+                state, he carries fragments of what was found there, dream
+                images, myth symbols, and visual language that could not have
+                been accessed any other way. As Altensien has written:
+                "Sometimes I close my eyes and by the time I open them, I am
+                somewhere else entirely." That is the experience the work is
+                built from.
               </Text>
               <Text as="p">
                 Harris approaches his studio practice the way a scientist

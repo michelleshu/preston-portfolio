@@ -80,12 +80,6 @@ export default ({ className }) => {
             <Link to="/origin" className="MobileNavMenuItemLink">
               Origin: The Infinity Planes
             </Link>
-            <Link
-              to="/path-of-the-infinite-dream"
-              className="MobileNavMenuItemLink"
-            >
-              Path of the Infinite Dream
-            </Link>
             <Link to="/iconography" className="MobileNavMenuItemLink">
               Iconography
             </Link>
@@ -97,8 +91,11 @@ export default ({ className }) => {
             </a>
           </Collapsible.Content>
 
-          <Link to="/dream-stories" className="MobileNavMenuItemLink">
-            Dream Stories
+          <Link
+            to="/path-of-the-infinite-dream"
+            className="MobileNavMenuItemLink"
+          >
+            Path of the Infinite Dream
           </Link>
 
           <Link to="/artwork" className="MobileNavMenuItemLink">

@@ -44,10 +44,6 @@ const router = createHashRouter([
     element: <Iconography />,
   },
   {
-    path: "/dream-stories",
-    element: <DreamStories />,
-  },
-  {
     path: "/artwork",
     element: <Artwork />,
   },
