@@ -135,8 +135,10 @@ export default () => {
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="">
-              Contact
+            <NavigationMenu.Link asChild>
+              <Link to="/contact" className="NavigationMenuLink">
+                Contact
+              </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
 

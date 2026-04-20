@@ -102,17 +102,17 @@ export default ({ className }) => {
             Artwork
           </Link>
 
-          <a className="MobileNavMenuItemLink" href="">
+          <Link to="/artist-statement" className="MobileNavMenuItemLink">
             Artist Statement
-          </a>
+          </Link>
 
-          <a className="MobileNavMenuItemLink" href="">
+          <Link to="/bio" className="MobileNavMenuItemLink">
             Artist Bio
-          </a>
+          </Link>
 
-          <a className="MobileNavMenuItemLink" href="">
+          <Link to="/contact" className="MobileNavMenuItemLink">
             Contact
-          </a>
+          </Link>
         </Collapsible.Root>
       </Box>
     </Box>

@@ -9,7 +9,7 @@ import Home from "./routes/Home";
 import ArtistStatement from "./routes/ArtistStatement";
 import Artwork from "./routes/Artwork";
 import Bio from "./routes/Bio";
-import DreamStories from "./routes/DreamStories";
+import Contact from "./routes/Contact";
 import Error from "./routes/Error";
 import Automatic from "./routes/galleries/Automatic";
 import Collages from "./routes/galleries/Collages";
@@ -74,6 +74,10 @@ const router = createHashRouter([
   {
     path: "/bio",
     element: <Bio />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
