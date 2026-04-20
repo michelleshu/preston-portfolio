@@ -109,7 +109,7 @@ export default () => (
               <Text as="p">
                 In this work, Blackness functions as a thematic and metaphorical
                 condition, not as a category imposed from outside but as a
-                generative space Harris works from within. Darkness in the
+                generative space Harris works from within. Darkness in the{" "}
                 <em>Infinity Planes</em> is not absence but origin: the field
                 from which galaxies form, bodies become fluid, and the cosmos
                 remains open. Everything in the myth begins in blackness. This
