@@ -145,7 +145,7 @@ const PathOfTheInfiniteDream = () => {
           <Box mb="9">
             <RowsPhotoAlbum
               photos={infiniteDreamPaintings}
-              targetRowHeight={400}
+              targetRowHeight={300}
               onClick={({ index: current }) => setIndex(current)}
             />
             <Lightbox
