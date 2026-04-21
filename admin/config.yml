@@ -1,0 +1,359 @@
+backend:
+  name: github
+  repo: michelleshu/preston-portfolio
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+publish_mode: simple
+
+site_url: "https://theinfinityplanes.netlify.app"
+display_url: "https://theinfinityplanes.netlify.app"
+
+collections:
+  - label: "Galleries"
+    name: "galleries"
+    files:
+      - label: "Main"
+        name: "main"
+        file: "public/content/galleries/main.json"
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Year",
+                  name: "year",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Medium",
+                  name: "medium",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Dimensions",
+                  name: "dimensions",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                media_folder: "public/uploads/main"
+                public_folder: "/uploads/main"
+              - {
+                  label: "Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+
+      - label: "Current"
+        name: "current"
+        file: "public/content/galleries/current.json"
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Year",
+                  name: "year",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Medium",
+                  name: "medium",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Dimensions",
+                  name: "dimensions",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                media_folder: "public/uploads/current"
+                public_folder: "/uploads/current"
+              - {
+                  label: "Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+
+      - label: "Automatic"
+        name: "automatic"
+        file: "public/content/galleries/automatic.json"
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Year",
+                  name: "year",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Medium",
+                  name: "medium",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Dimensions",
+                  name: "dimensions",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                media_folder: "public/uploads/automatic"
+                public_folder: "/uploads/automatic"
+              - {
+                  label: "Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+
+      - label: "Abstraction"
+        name: "abstraction"
+        file: "public/content/galleries/abstraction.json"
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Year",
+                  name: "year",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Medium",
+                  name: "medium",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Dimensions",
+                  name: "dimensions",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                media_folder: "public/uploads/abstraction"
+                public_folder: "/uploads/abstraction"
+              - {
+                  label: "Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+
+      - label: "Collages"
+        name: "collages"
+        file: "public/content/galleries/collages.json"
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Year",
+                  name: "year",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Medium",
+                  name: "medium",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Dimensions",
+                  name: "dimensions",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                media_folder: "public/uploads/collages"
+                public_folder: "/uploads/collages"
+              - {
+                  label: "Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+
+      - label: "Printmaking"
+        name: "printmaking"
+        file: "public/content/galleries/printmaking.json"
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Year",
+                  name: "year",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Medium",
+                  name: "medium",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Dimensions",
+                  name: "dimensions",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                media_folder: "public/uploads/printmaking"
+                public_folder: "/uploads/printmaking"
+              - {
+                  label: "Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+
+      - label: "Old"
+        name: "old"
+        file: "public/content/galleries/old.json"
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Year",
+                  name: "year",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Medium",
+                  name: "medium",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Dimensions",
+                  name: "dimensions",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                media_folder: "public/uploads/old"
+                public_folder: "/uploads/old"
+              - {
+                  label: "Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
