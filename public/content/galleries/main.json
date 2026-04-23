@@ -1,3 +1,8 @@
 {
-  "items": []
+  "items": [
+    {
+      "image": "/uploads/main/cosmos.jpg",
+      "title": "Test Cosmos"
+    }
+  ]
 }
