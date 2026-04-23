@@ -3,7 +3,7 @@ backend:
   repo: michelleshu/preston-portfolio
   branch: main
 
-media_folder: "/public/uploads"
+media_folder: "public/uploads"
 public_folder: "/uploads"
 
 publish_mode: simple
@@ -49,7 +49,7 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-                media_folder: "/public/uploads/main"
+                media_folder: "public/uploads/main"
                 public_folder: "/uploads/main"
               - {
                   label: "Alt Text",
@@ -98,7 +98,7 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-                media_folder: "/public/uploads/current"
+                media_folder: "public/uploads/current"
                 public_folder: "/uploads/current"
               - {
                   label: "Alt Text",
@@ -147,7 +147,7 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-                media_folder: "/public/uploads/automatic"
+                media_folder: "public/uploads/automatic"
                 public_folder: "/uploads/automatic"
               - {
                   label: "Alt Text",
@@ -196,7 +196,7 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-                media_folder: "/public/uploads/abstraction"
+                media_folder: "public/uploads/abstraction"
                 public_folder: "/uploads/abstraction"
               - {
                   label: "Alt Text",
@@ -245,7 +245,7 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-                media_folder: "/public/uploads/collages"
+                media_folder: "public/uploads/collages"
                 public_folder: "/uploads/collages"
               - {
                   label: "Alt Text",
@@ -294,7 +294,7 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-                media_folder: "/public/uploads/printmaking"
+                media_folder: "public/uploads/printmaking"
                 public_folder: "/uploads/printmaking"
               - {
                   label: "Alt Text",
@@ -343,7 +343,7 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-                media_folder: "/public/uploads/old"
+                media_folder: "public/uploads/old"
                 public_folder: "/uploads/old"
               - {
                   label: "Alt Text",
