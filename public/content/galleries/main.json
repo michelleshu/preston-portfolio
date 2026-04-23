@@ -1,14 +1,14 @@
 {
   "items": [
     {
-      "image": "/uploads/main/cosmos.jpg",
-      "title": "Test Cosmos",
-      "description": "Description for Test Cosmos"
-    },
-    {
       "title": "Test Lightning",
       "image": "/uploads/main/lightning.jpg",
       "description": "Description for test lightning"
+    },
+    {
+      "image": "/uploads/main/cosmos.jpg",
+      "title": "Test Cosmos",
+      "description": "Description for Test Cosmos"
     }
   ]
 }
