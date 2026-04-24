@@ -11,11 +11,12 @@ import Artwork from "./routes/Artwork";
 import Bio from "./routes/Bio";
 import Contact from "./routes/Contact";
 import Error from "./routes/Error";
+import Abstraction from "./routes/galleries/Abstraction";
 import Automatic from "./routes/galleries/Automatic";
 import Collages from "./routes/galleries/Collages";
 import Current from "./routes/galleries/Current";
-import DelegatedAbstraction from "./routes/galleries/DelegatedAbstraction";
 import OlderWork from "./routes/galleries/OlderWork";
+import Printmaking from "./routes/galleries/Printmaking";
 import PathOfTheInfiniteDream from "./routes/mythos/PathOfTheInfiniteDream";
 import Iconography from "./routes/mythos/Iconography";
 import MythologyDefined from "./routes/mythos/MythologyDefined";
@@ -48,24 +49,28 @@ const router = createHashRouter([
     element: <Artwork />,
   },
   {
-    path: "/artwork-current",
-    element: <Current />,
+    path: "/artwork-abstraction",
+    element: <Abstraction />,
   },
-  {
+    {
     path: "/artwork-automatic",
     element: <Automatic />,
-  },
-  {
-    path: "/artwork-delegated-abstraction",
-    element: <DelegatedAbstraction />,
   },
   {
     path: "/artwork-collages",
     element: <Collages />,
   },
   {
+    path: "/artwork-current",
+    element: <Current />,
+  },
+  {
     path: "/artwork-older-work",
     element: <OlderWork />,
+  },
+  {
+    path: "/artwork-printmaking",
+    element: <Printmaking />,
   },
   {
     path: "/artist-statement",

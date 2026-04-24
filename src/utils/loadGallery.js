@@ -43,16 +43,25 @@ function getImageDimensions(src) {
   });
 }
 
-function buildDescription(item) {
-  const meta = [
-    item.year,
-    item.medium,
-    item.dimensions,
-  ]
+function buildDescription(item = {}) {
+  const meta = [item.year, item.medium, item.dimensions]
+    .map((value) => String(value || "").trim())
     .filter(Boolean)
     .join(" · ");
 
-  return [meta, item.description]
-    .filter(Boolean)
-    .join("\n");
+  const description = String(item.description || "").trim();
+
+  if (meta && description) {
+    return `${meta}\n${description}`;
+  }
+
+  if (meta) {
+    return meta;
+  }
+
+  if (description) {
+    return description;
+  }
+
+  return undefined;
 }

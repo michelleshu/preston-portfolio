@@ -27,9 +27,9 @@ export default () => {
               Back to all artwork
             </Button>
           </Link>
-          <Heading mt="5">Older Work</Heading>
+          <Heading mt="5">Printmaking</Heading>
           <Section>
-            <ArtworkPhotoAlbum gallery="old" targetRowHeight={300} />
+            <ArtworkPhotoAlbum gallery="printmaking" targetRowHeight={300} />
           </Section>
           <Footer />
         </Container>
