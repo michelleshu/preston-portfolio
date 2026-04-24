@@ -7,3 +7,18 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+.ArtworkCategoryContainer {
+  border: 1px solid var(--gray-9);
+  cursor: pointer;
+  height: 60px;
+}
+
+.ArtworkCategoryContainer:hover {
+  background-color: var(--gray-3);
+}
+
+.ArtworkCategoryText {
+  color: white;
+  font-weight: 600;
+}
