@@ -1,0 +1,26 @@
+.yarl__root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI (Custom)', Roboto, 'Helvetica Neue', 'Open Sans (Custom)', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+/* captions container */
+.yarl__captions_container {
+  font-family: inherit !important;
+}
+
+/* title */
+.yarl__slide_title,
+.yarl__captions_title {
+  font-family: inherit !important;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* description */
+.yarl__slide_description,
+.yarl__captions_description {
+  font-family: inherit !important;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  white-space: pre-line;
+}

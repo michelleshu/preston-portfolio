@@ -9,6 +9,7 @@ import "../style/Artwork.css";
 import "react-photo-album/rows.css";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/captions.css";
+import "../style/LightboxOverrides.css";
 
 import Starfield from "react-starfield";
 import ArtworkCategoryTile from "../components/ArtworkCategoryTile";
@@ -25,28 +26,47 @@ export default () => {
   const [photos, setPhotos] = useState([]);
   const [index, setIndex] = useState(-1);
 
+  function getImageDimensions(src) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+
+      img.onload = () => {
+        resolve({
+          width: img.naturalWidth,
+          height: img.naturalHeight,
+        });
+      };
+
+      img.onerror = reject;
+
+      img.src = src;
+    });
+  }
+
   useEffect(() => {
-    fetch(`/content/galleries/main.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        debugger;
-        const formatted = (data.items || []).map((item) => ({
-          src: item.image,
-          width: item.width || 1200,
-          height: item.height || 900,
-          alt: item.alt || item.title || "",
-          title: item.title,
-          description: item.description,
-          year: item.year,
-          medium: item.medium,
-          dimensions: item.dimensions,
-        }));
+    async function loadGallery() {
+      const res = await fetch("/content/galleries/main.json");
+      const data = await res.json();
 
-        console.log(formatted);
+      const photoData = await Promise.all(
+        (data.items || []).map(async (item) => {
+          const dimensions = await getImageDimensions(item.image);
 
-        setPhotos(formatted);
-      })
-      .catch((err) => console.error(`Failed to load gallery:`, err));
+          return {
+            src: item.image,
+            width: dimensions.width,
+            height: dimensions.height,
+            alt: item.alt || item.title || "",
+            title: item.title,
+            description: "Test line\n "+item.description,
+          };
+        })
+      );
+
+      setPhotos(photoData);
+    }
+
+    loadGallery().catch(console.error);
   });
 
   return (
@@ -57,7 +77,7 @@ export default () => {
           <Navigation />
           <Heading mt="9" mb="6">Collections</Heading>
           <Grid
-            columns={{ initial: "6", sm: "3", md: "6" }}
+            columns={{ initial: "3", sm: "3", md: "6" }}
             gap="5"
             width="auto"
           >
@@ -95,21 +115,23 @@ export default () => {
               </Flex>
             </Link>
           </Grid>
-          <Heading mt="6" mb="6">Feed</Heading>
-          <RowsPhotoAlbum
-                photos={photos}
-                targetRowHeight={400}
-                onClick={({ index: current }) => setIndex(current)}
-              />
-              <Lightbox
-                index={index}
-                slides={photos}
-                open={index >= 0}
-                plugins={[Captions, Zoom]}
-                close={() => setIndex(-1)}
-                carousel={{ padding: "64px 16px" }}
-                styles={{ slide: { maxHeight: "calc(100% - 120px" } }}
-              />
+          <Heading mt="6" mb="6">Works in Progress</Heading>
+          <Box mb="6">
+            <RowsPhotoAlbum
+              photos={photos}
+              targetRowHeight={400}
+              onClick={({ index: current }) => setIndex(current)}
+            />
+            <Lightbox
+              index={index}
+              slides={photos}
+              open={index >= 0}
+              plugins={[Captions, Zoom]}
+              close={() => setIndex(-1)}
+              carousel={{ padding: "64px 16px" }}
+              styles={{ slide: { maxHeight: "calc(100% - 120px" } }}
+            />
+            </Box>
           <Footer />
         </Container>
       </Box>
