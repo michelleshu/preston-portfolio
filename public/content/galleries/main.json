@@ -1,14 +1,52 @@
 {
   "items": [
     {
-      "title": "Test Lightning",
-      "image": "/uploads/main/lightning.jpg",
-      "description": "Description for test lightning"
+      "image": "/uploads/main/screenshot-2026-04-24-at-2.08.47 pm.png",
+      "title": "Look, it's a painting",
+      "year": "2026",
+      "medium": "Paint",
+      "dimensions": "24\" x 36\"",
+      "description": "A painting I made outside"
     },
     {
-      "image": "/uploads/main/cosmos.jpg",
-      "title": "Test Cosmos",
-      "description": "Description for Test Cosmos"
+      "image": "/uploads/main/screenshot-2026-04-24-at-2.08.56 pm.png",
+      "title": "Lid",
+      "year": "2026",
+      "medium": "Wood",
+      "dimensions": "24\" x 12\"",
+      "description": "It's the lid to my box"
+    },
+    {
+      "title": "Life Cycle",
+      "year": "2026",
+      "medium": "Colored Plastic",
+      "image": "/uploads/main/screenshot-2026-04-24-at-2.10.05 pm.png",
+      "dimensions": "24\" x 36\"",
+      "description": "They represent the states that we and stars move through"
+    },
+    {
+      "image": "/uploads/main/screenshot-2026-04-24-at-2.08.59 pm.png",
+      "title": "The Lid Again",
+      "year": "2026",
+      "medium": "Wood",
+      "dimensions": "24\" x 12\"",
+      "description": "This will be filled with resin"
+    },
+    {
+      "image": "/uploads/main/screenshot-2026-04-24-at-2.09.46 pm.png",
+      "title": "Infinite",
+      "year": "2026",
+      "medium": "Idk",
+      "dimensions": "24\" x 12\"",
+      "description": "Goes on forever"
+    },
+    {
+      "image": "/uploads/main/screenshot-2026-04-24-at-2.09.36 pm.png",
+      "title": "I made a box",
+      "year": "2026",
+      "description": "It's a very black box",
+      "medium": "Wood",
+      "dimensions": "24\" x 12\" x 12\""
     }
   ]
 }
