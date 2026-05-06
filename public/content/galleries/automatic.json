@@ -1,3 +1,67 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "Wall-based arrangement of compositional sketches",
+      "year": "2026",
+      "medium": "Photograph",
+      "description": "written notes, and unfolding collage pages demonstrating the emergence, layering, and reorganization of forms into archetypal structures, 2026, photograph.",
+      "image": "/uploads/automatic/12a23bb9-8de6-4a70-9be9-633731d49278.jpg"
+    },
+    {
+      "title": "Accumulation of sketches",
+      "description": "depicting the emergence of Altensien Skybreaker through repeated forms, including wings, cubes, and shifting structures, 2023-26, mixed media on paper",
+      "year": "2023-2026",
+      "medium": "mixed media, paper",
+      "dimensions": "11x11 in. variants",
+      "image": "/uploads/automatic/a6925181-8869-4022-8d20-6020f9220859.jpg"
+    },
+    {
+      "title": "Black is comfortable",
+      "year": "2026",
+      "medium": " mixed media on paper",
+      "dimensions": "11.5x9 in.",
+      "description": "Automatic and compositional study of Altensien Skybreaker with accompanying notes, exploring form and structure prior to the final painting (A-Skybreaker)",
+      "image": "/uploads/automatic/ac5f48ca-4527-412b-a2db-2dcf11b77284.jpg"
+    },
+    {
+      "description": "Sketches and written notes exploring the relationship between the human body and stellar transformation, including pressure, collapse, ignition, and expansion",
+      "title": "Automatic Notes",
+      "year": "2024-2026",
+      "medium": "mixed media on paper",
+      "dimensions": "11.5x9 in.",
+      "image": "/uploads/automatic/9a72ee84-cbfd-427c-9168-ccbcf8d18912.jpg"
+    },
+    {
+      "title": "Blind Study",
+      "dimensions": "11.5x9 in.",
+      "alt": "Reconfiguration Process",
+      "year": "2024",
+      "medium": "mixed media on paper",
+      "image": "/uploads/automatic/85e597b8-185d-425f-98bb-046531742e21.jpg"
+    },
+    {
+      "title": "Automatic Study",
+      "alt": "Reconfiguration Process",
+      "dimensions": "11.5x9 in.",
+      "medium": "mixed media on paper",
+      "year": " 2024",
+      "image": "/uploads/automatic/98f92c81-da13-4336-b8fc-afa0d08b48fb.jpg"
+    },
+    {
+      "title": "Compositional Sketch",
+      "year": "2025",
+      "medium": "mixed media on paper",
+      "dimensions": "11.5 × 9 in.",
+      "alt": "Reconfiguration Process",
+      "image": "/uploads/automatic/f3318e80-986f-46be-a2d6-935bf60f83f1.jpg"
+    },
+    {
+      "alt": "Reconfiguration Process",
+      "title": "Compositional Study",
+      "medium": "mixed media on paper",
+      "year": "2025",
+      "dimensions": "11.5 × 9 in.",
+      "image": "/uploads/automatic/015627cd-4170-4098-a55f-859ec0338238.jpg"
+    }
+  ]
 }
