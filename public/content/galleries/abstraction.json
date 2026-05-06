@@ -1,3 +1,28 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "Structure of the Gods I",
+      "year": "October 31, 2024",
+      "medium": "Ink, mixed media, acrylic modeling paste, found canvas, watercolor",
+      "dimensions": "22 x 15 in.",
+      "image": "/uploads/abstraction/structure-of-the-gods-i.jpg",
+      "description": "Originally made in undergrad and revisited in graduate school. A close-up of the entity depicted in SGIII, a fully rendered face emerging from the abstraction. What began as a separate piece found its place within a larger narrative when the three works were brought together."
+    },
+    {
+      "title": "Structure of the Gods II",
+      "year": "October 31, 2024",
+      "medium": "Ink, mixed media, acrylic modeling paste, found canvas, watercolor",
+      "dimensions": "20 x 16 in.",
+      "description": "Made on a found canvas from a giveaway bin. Built through first-thought impulse, automatism, and new material exploration, this piece functions as a closer view of SGIII with texture as the primary emphasis, a process of learning to accept and trust the way the work arrives.",
+      "image": "/uploads/abstraction/structure-of-the-gods-ii.jpg"
+    },
+    {
+      "title": "Structure of the Gods III",
+      "year": "October 31, 2024",
+      "medium": "Ink, mixed media, acrylic modeling paste, found canvas, watercolor",
+      "dimensions": "30x22 in.",
+      "image": "/uploads/abstraction/structure-of-the-gods-iii.jpg",
+      "description": "Made on a found canvas from a giveaway bin. Beginning with an intuitive abstraction, the image was drawn out of what was already there, painted and drawn until a form took shape. The series, originally conceived as separate pieces, revealed itself as a unified narrative only after being seen together."
+    }
+  ]
 }
