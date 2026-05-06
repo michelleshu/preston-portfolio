@@ -236,6 +236,13 @@
       "image": "/uploads/old/6bb2dbc8-5c64-48d4-ace0-736d5de6c22c.jpg"
     },
     {
+      "title": "Choking",
+      "year": "April 16th, 2019",
+      "medium": "Watercolors",
+      "dimensions": "19x12 in.",
+      "image": "/uploads/old/a6589703-8bf5-426a-be36-1b5372825246.jpg"
+    },
+    {
       "medium": "watercolor, gouache, acrylic, graphite, colored pencils",
       "title": "Pantheon 13 (West)",
       "year": "November 9th, 2018",
@@ -300,11 +307,12 @@
       "image": "/uploads/old/img_5667.jpg"
     },
     {
-      "title": "Choking",
+      "title": "Connection",
       "year": "April 16th, 2019",
-      "medium": "Watercolors",
-      "dimensions": "19x12 in.",
-      "image": "/uploads/old/a6589703-8bf5-426a-be36-1b5372825246.jpg"
+      "alt": "",
+      "dimensions": "19x12 in",
+      "medium": "watercolors",
+      "image": "/uploads/old/bc7bae3f-414a-48fd-b8ff-600316646829.jpg"
     }
   ]
 }
