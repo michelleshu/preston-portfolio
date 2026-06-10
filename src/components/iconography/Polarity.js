@@ -15,7 +15,7 @@ export default () => {
         creation. It is not a moral dichotomy but a dynamic tension between
         complementary forces, typically labeled positive and negative, that
         co-construct reality through interplay, movement, and change. In
-        dream-based frameworks such as the Infinity Planes, polarity is
+        dream-based frameworks such as the <em>Infinity Planes</em>, polarity is
         understood as a spectrum of presence and absence, stabilization and
         disruption, construction and deconstruction. It is neither good nor
         evil, but a structuring principle embedded in all forms of existence,

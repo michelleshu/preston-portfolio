@@ -1,3 +1,20 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "Skybreaking",
+      "year": "March 3, 2025",
+      "medium": "Collage (watercolor, mixed media, broken CDs, mosaics, glue)",
+      "dimensions": "42 x 30 in.",
+      "image": "/uploads/collages/skybreaking.jpg",
+      "description": "Breaking through space, into the void of prismatic light. Originally drawn in 2021 and revisited in 2025, this piece emerged from an extended period of process work and a growing willingness to experiment. Drawings were cut apart, the body fragmented, and reassembled using mosaics and broken CDs to depict what appears in the closed-eye state: black figures suspended in prismatic space. The collage method became a way of pushing the interior image further than drawing alone could reach."
+    },
+    {
+      "title": "Fragmented Star",
+      "year": "March 3, 2025",
+      "medium": "Collage (watercolor, mixed media, broken CDs, mosaics, glue)",
+      "dimensions": "42 x 30 in.",
+      "image": "/uploads/collages/fragmented-star.jpg",
+      "description": "A star was born, a fragmented king. Originally drawn in 2021 and revisited in 2025, this piece shares the same process as Skybreaking: drawings cut apart and rebuilt using mosaics and broken CDs to capture what surfaces in the closed-eye state. The fragmentation of the body mirrors the fragmentation of a star, matter dispersed, yet still luminous, still holding form in the breaking.\n"
+    }
+  ]
 }

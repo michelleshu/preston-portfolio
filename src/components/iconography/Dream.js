@@ -16,8 +16,9 @@ export default () => {
         activity; they are portals, active states of consciousness where
         identity shifts, time folds, and inner truths surface. In your system,
         dreams function as overlays upon archetypes, altering perception,
-        revealing hidden structure, and opening pathways to the Infinity Planes,
-        alternate realms governed by spiritual and emotional frequency.
+        revealing hidden structure, and opening pathways to the{" "}
+        <em>Infinity Planes</em>, alternate realms governed by spiritual and
+        emotional frequency.
       </Text>
       <div className="IconographyBreak"></div>
       <Text className="IconographyTextDark">

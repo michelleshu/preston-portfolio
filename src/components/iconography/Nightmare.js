@@ -32,8 +32,8 @@ export default () => {
         Nightmares are not lesser than dreams, they are initiatory. They disrupt
         only to reinvent. What they disturb is often what needs examination.
         What they withhold is often what must be pursued. In the dream-logic of
-        the Infinity Planes, nightmares are signals of spiritual density and
-        narrative weight.
+        the <em>Infinity Planes</em>, nightmares are signals of spiritual
+        density and narrative weight.
       </Text>
     </Box>
   );

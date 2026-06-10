@@ -20,7 +20,7 @@ export default () => {
         wrong. No, those things are responses to the self or ego's
         interpretation of positive and negative. They aren’t moral terms, truly.
         They are movements. Frequencies, I would call them. They are the scales
-        by which the Infinity Planes abide.
+        by which the <em>Infinity Planes</em> abide.
       </Text>
       <div className="IconographyBreak"></div>
 
@@ -142,8 +142,8 @@ export default () => {
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
-          The Infinity Planes work with energy that moves between what is and
-          what isn't dreams and memories.
+          The <em>Infinity Planes</em> work with energy that moves between what
+          is and what isn't dreams and memories.
         </Text>
         <Text as="p" className="IconographyParagraph">
           These are all things defined partly by absence, by the void, by what
@@ -288,8 +288,8 @@ export default () => {
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
-          In the Infinity Planes, polarity is within everything. It influences
-          everything.
+          In the <em>Infinity Planes</em>, polarity is within everything. It
+          influences everything.
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
@@ -327,8 +327,8 @@ export default () => {
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
-          The Infinity Planes are an epistemological framework in my mythos that
-          rely on the coexistence and cooperation of both currents.
+          The <em>Infinity Planes</em> are an epistemological framework in my
+          mythos that rely on the coexistence and cooperation of both currents.
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">

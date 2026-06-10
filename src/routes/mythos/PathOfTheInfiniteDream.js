@@ -190,8 +190,8 @@ const PathOfTheInfiniteDream = () => {
                   <Text as="div" mb="4">
                     Altensien Skybreaker is the alter ego and altered state of
                     self through whom this path is walked. To channel Altensien
-                    is to enter the Infinity Planes, the internal realm where
-                    dream fragments, mythic symbols, and lived experience
+                    is to enter the <em>Infinity Planes</em>, the internal realm
+                    where dream fragments, mythic symbols, and lived experience
                     converge, and to move through what is there. Altensien does
                     not observe the transformation from outside. Altensien is
                     the body that falls, dissolves, breaks open, and reforms.
@@ -215,8 +215,8 @@ const PathOfTheInfiniteDream = () => {
                     necessary first movement of any transformation: the release
                     of what was held. The associated color is red, the color of
                     heat, blood, and the interior of the body before it is
-                    opened. The Fall carries the body toward its own collapse,
-                    and that collapse is the door.
+                    opened. <em>The Fall</em> carries the body toward its own
+                    collapse, and that collapse is the door.
                   </Text>
                   <Text as="div" mb="4">
                     <strong>The Void</strong> is what waits on the other side of
@@ -227,8 +227,8 @@ const PathOfTheInfiniteDream = () => {
                     translucent. There is no exit that is immediately visible.
                     This is the state of mental enclosure: the self confronted
                     with its own interior, unable to look away. The associated
-                    color is purple, held and compressed. The Void is not
-                    punishment. It is the necessary condition of stillness
+                    color is purple, held and compressed. <em>The Void</em> is
+                    not punishment. It is the necessary condition of stillness
                     before form can dissolve. The clouds do not stop. They keep
                     coming.
                   </Text>
@@ -258,10 +258,10 @@ const PathOfTheInfiniteDream = () => {
                     rather than intention. This is the most visceral state:
                     exposed, fragmented, a core emerging where the right hand
                     would be. The associated color is yellow, electric and
-                    sharp. The Lightning does not destroy. It reforms. What
-                    comes through the rupture is not less than what entered it.
-                    It is reconfigured. The disintegration is the condition of
-                    becoming something new.
+                    sharp. <em>The Lightning</em> does not destroy. It reforms.
+                    What comes through the rupture is not less than what entered
+                    it. It is reconfigured. The disintegration is the condition
+                    of becoming something new.
                   </Text>
                   <Text as="div" mb="4">
                     <strong>The Star</strong> is what emerges from that
@@ -286,14 +286,15 @@ const PathOfTheInfiniteDream = () => {
                     boundary between body and cosmos dissolving further as the
                     cube draws closer. When Altensien reaches it and picks it
                     up, there is no resistance. The body is absorbed into the
-                    cube entirely, and what opens on the other side is the
-                    Infinity Planes: a space that houses the infinite, where all
-                    dreaming converges into a single pool of souls. This pool is
-                    both the collective unconscious of every human who has ever
-                    closed their eyes and entered that space, and the source
-                    from which Altensien will draw when the next cycle begins.
-                    The associated color is green, slow and generative. The
-                    Cosmos is not an ending. It is the gathering point.
+                    cube entirely, and what opens on the other side is the{" "}
+                    <em>Infinity Planes</em>: a space that houses the infinite,
+                    where all dreaming converges into a single pool of souls.
+                    This pool is both the collective unconscious of every human
+                    who has ever closed their eyes and entered that space, and
+                    the source from which Altensien will draw when the next
+                    cycle begins. The associated color is green, slow and
+                    generative. <em>The Cosmos</em> is not an ending. It is the
+                    gathering point.
                   </Text>
                   <Text as="div" mb="4">
                     This culmination is made visible in Reconfiguration, where
@@ -324,12 +325,12 @@ const PathOfTheInfiniteDream = () => {
                     Every human who has ever closed their eyes and entered that
                     space has touched something infinite: an endless loop of
                     possibility, reality, imagination, and experience that
-                    exists beyond the boundaries of the waking world. The
-                    Infinity Planes are not a private universe. They are the
-                    space all dreaming humans share without knowing it. The Path
-                    of the Infinite Dream is one way of moving through what has
-                    always been there, returning with what was found, and
-                    beginning again.
+                    exists beyond the boundaries of the waking world. The{" "}
+                    <em>Infinity Planes</em> are not a private universe. They
+                    are the space all dreaming humans share without knowing it.
+                    The Path of the Infinite Dream is one way of moving through
+                    what has always been there, returning with what was found,
+                    and beginning again.
                   </Text>
                 </AccordionContent>
               </Accordion.Item>

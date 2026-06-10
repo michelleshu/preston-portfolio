@@ -61,7 +61,7 @@ export default () => (
                 that become the material basis for everything he makes. Through
                 sustained engagement with this space, six archetypal states
                 emerged over time, not as concepts but as sensations:{" "}
-                <em>The Fall</em>,<em>The Void</em>, <em>The Cloud</em>,{" "}
+                <em>The Fall</em>, <em>The Void</em>, <em>The Cloud</em>,{" "}
                 <em>The Lightning</em>, <em>The Star</em>, and{" "}
                 <em>The Cosmos</em>. Together they form{" "}
                 <em>The Path of the Infinite Dream</em>, a cyclical framework of

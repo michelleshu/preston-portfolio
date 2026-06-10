@@ -1,5 +1,12 @@
+:root {
+  --yarl__slide_description_max_lines: 8;
+}
+
 .yarl__root {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI (Custom)', Roboto, 'Helvetica Neue', 'Open Sans (Custom)', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI (Custom)", Roboto,
+    "Helvetica Neue", "Open Sans (Custom)", system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 /* captions container */

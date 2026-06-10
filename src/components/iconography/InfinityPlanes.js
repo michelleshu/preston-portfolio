@@ -10,10 +10,10 @@ export default () => {
   return (
     <Box className="IconographyScrollContainer">
       <Text as="p" className="IconographyParagraph">
-        If someone asked me, “What are the Infinity Planes?”: I’d say it’s both
-        real and imagined. It’s not just a concept. It’s a place. It’s a space
-        that holds all my thoughts, memories, contradictions, visions, and
-        variations of self. It’s the root of my being, a dream archive, a
+        If someone asked me, “What are the <em>Infinity Planes</em>?”: I’d say
+        it’s both real and imagined. It’s not just a concept. It’s a place. It’s
+        a space that holds all my thoughts, memories, contradictions, visions,
+        and variations of self. It’s the root of my being, a dream archive, a
         thought cage, a creation well. It’s the inside of my mind, but bigger
         than me. It’s where I build and destroy. It’s where I go when I close my
         eyes. And sometimes, it feels like I never wake up from it.
@@ -53,13 +53,13 @@ export default () => {
           art would be different. But I wasn’t. My experiences are soaked in
           Blackness. Even when I close my eyes, it’s black. Blackness is the
           canvas. It’s what allows color to exist. The closed-eye space, the
-          void, the absence, that’s where my Infinity Planes live.
+          void, the absence, that’s where my <em>Infinity Planes</em> live.
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
-          The Infinity Planes is the name I give to this mythic inner universe,
-          a world of symbols, archetypes, emotions, spiritual energy, and
-          contradiction. It’s where my alter ego, Altensien Skybreaker, was
+          The <em>Infinity Planes</em> is the name I give to this mythic inner
+          universe, a world of symbols, archetypes, emotions, spiritual energy,
+          and contradiction. It’s where my alter ego, Altensien Skybreaker, was
           born, a dream-walker, a story-keeper, a collector of fragments from
           every version of me across time.
         </Text>
@@ -93,16 +93,16 @@ export default () => {
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">
-          The Infinity Planes is my myth, my way of interpreting the chaos
-          inside me and around me. It’s how I make sense of the world that
+          The <em>Infinity Planes</em> is my myth, my way of interpreting the
+          chaos inside me and around me. It’s how I make sense of the world that
           shaped me, through art, imagination, and contradiction.
         </Text>
         <Text as="p" className="IconographyParagraph">
-          The Infinity Planes aren’t just where stories are told, they are the
-          stories. They’re shaped by my dreams, my culture, my nightmares, my
-          influences, my race, my trauma, my joy, my questions. They pull from
-          books, movies, memories, visions, religions, ghost feelings, old
-          timelines, and unspoken pain.
+          The <em>Infinity Planes</em> aren’t just where stories are told, they
+          are the stories. They’re shaped by my dreams, my culture, my
+          nightmares, my influences, my race, my trauma, my joy, my questions.
+          They pull from books, movies, memories, visions, religions, ghost
+          feelings, old timelines, and unspoken pain.
         </Text>
         <div className="IconographyBreak"></div>
         <Text as="p" className="IconographyParagraph">

@@ -46,11 +46,11 @@ export default () => (
                 repetition across drawings, dreams, and the closed-eye space,
                 not as something I constructed but as something that emerged.
                 Altensien is both myself and not myself simultaneously: an alter
-                ego, an altered state, a working condition through which the
+                ego, an altered state, a working condition through which the{" "}
                 <em>Infinity Planes</em> are entered, navigated, and received.
                 Through Skybreaker, I move through The Path of the Infinite
                 Dream, a cyclical framework of six archetypal states:{" "}
-                <em>The Fall</em>, <em>The Void</em>,<em>The Cloud</em>,{" "}
+                <em>The Fall</em>, <em>The Void</em>, <em>The Cloud</em>,{" "}
                 <em>The Lightning</em>, <em>The Star</em>, and{" "}
                 <em>The Cosmos</em>. Each one a transformation of body, mind,
                 emotion, and spirit. I return from each cycle carrying fragments
@@ -95,16 +95,17 @@ export default () => (
             <em>
               My work comes from what I see when I close my eyes. I build a
               personal mythology from dreams, constructing an internal realm I
-              call the Infinity Planes, where recurring figures, symbols, and
-              archetypal forms emerge through repetition and organize themselves
-              over time. Through this space I channel Altensien Skybreaker, an
-              alter ego and working state through whom the Infinity Planes are
-              entered and received. Working through automatism, collage, blind
-              drawing, and intuitive mark-making, I translate what is found
-              there into watercolor and mixed media, allowing dreams to become
-              visual language. The work is an open system, one that invites
-              viewers to encounter it as an extension of the mind and to ask:
-              What do you see when you close your eyes?
+              call the <em>Infinity Planes</em>, where recurring figures,
+              symbols, and archetypal forms emerge through repetition and
+              organize themselves over time. Through this space I channel
+              Altensien Skybreaker, an alter ego and working state through whom
+              the <em>Infinity Planes</em> are entered and received. Working
+              through automatism, collage, blind drawing, and intuitive
+              mark-making, I translate what is found there into watercolor and
+              mixed media, allowing dreams to become visual language. The work
+              is an open system, one that invites viewers to encounter it as an
+              extension of the mind and to ask: What do you see when you close
+              your eyes?
             </em>
           </Box>
         </Box>
